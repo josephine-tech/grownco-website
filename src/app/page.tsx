@@ -12,9 +12,9 @@ import ClientJourney from "@/components/sections/ClientJourney";
 import CtaSection from "@/components/sections/CtaSection";
 
 export const metadata: Metadata = {
-  title: "Grow N Co — Global Performance Marketing Agency",
+  title: "Grow N Co - Global Performance Marketing Agency",
   description:
-    "Grow N Co is a global performance marketing agency with three divisions: E-Commerce Marketing, Traditional Brand Marketing, and Talent Management. Operating across Africa, Europe, and the Americas.",
+    "Grow N Co is a global performance marketing agency with two divisions: Brand Scaling and Talent Management. Operating across Africa, Europe, and the Americas.",
 };
 
 export default function HomePage() {

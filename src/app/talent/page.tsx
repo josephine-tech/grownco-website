@@ -71,7 +71,7 @@ export default function TalentPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { title: "Brand Deal Sourcing", desc: "We secure deals that match the creator's audience and values — maximising both revenue and authenticity." },
+              { title: "Brand Deal Sourcing", desc: "We secure deals that match the creator's audience and values - maximising both revenue and authenticity." },
               { title: "Contract Negotiation", desc: "Industry-standard contracts, rate negotiation, and protection for our creators in every deal." },
               { title: "Content Strategy", desc: "Platform-specific content strategies built to grow audience, engagement, and revenue." },
               { title: "Platform Growth", desc: "Algorithm-aware growth strategies for Instagram, TikTok, and YouTube." },

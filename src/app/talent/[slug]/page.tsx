@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = getTalent(params.slug);
   if (!t) return { title: "Talent Not Found" };
   return {
-    title: `${t.name} — Talent`,
+    title: `${t.name} - Talent`,
     description: t.bio.slice(0, 155),
   };
 }

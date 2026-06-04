@@ -28,7 +28,7 @@ export const caseStudies: CaseStudy[] = [
     headline: "4x ROAS in 60 Days",
     thumbnail: "/placeholders/case-1.jpg",
     challenge:
-      "Lagos Fashion House had an incredible product line but was burning through ad spend with a fragmented creative strategy and no cohesive performance framework. ROAS was sitting at 0.9x — they were losing money on every sale.",
+      "Lagos Fashion House had an incredible product line but was burning through ad spend with a fragmented creative strategy and no cohesive performance framework. ROAS was sitting at 0.9x - they were losing money on every sale.",
     strategy:
       "We deployed the full D.R.I.V.E. methodology: deep audience Diagnostics revealed a mismatch between creative hooks and buyer intent. We rebuilt the Research layer with fresh competitor analysis, then overhauled creative Infrastructure with 60 scroll-stopping ad creatives in week one.",
     execution:
@@ -41,7 +41,7 @@ export const caseStudies: CaseStudy[] = [
     ],
     testimonial: {
       quote:
-        "Grow N Co transformed our entire approach to performance marketing. The results speak for themselves — 4x ROAS in under two months.",
+        "Grow N Co transformed our entire approach to performance marketing. The results speak for themselves - 4x ROAS in under two months.",
       name: "Adaeze Okonkwo",
       role: "Founder, Lagos Fashion House",
     },
@@ -86,7 +86,7 @@ export const caseStudies: CaseStudy[] = [
     challenge:
       "A heritage British luxury brand struggling to connect with younger affluent consumers in continental Europe. Existing marketing felt dated and failed to resonate with the 28–40 demographic they needed to win.",
     strategy:
-      "Applied the Empire package: full brand identity overhaul, editorial content strategy, and a coordinated launch across PR, digital, and experiential. D.R.I.V.E. Diagnostics revealed the brand had strong equity but weak visibility — the solution was amplification, not reinvention.",
+      "Applied the Empire package: full brand identity overhaul, editorial content strategy, and a coordinated launch across PR, digital, and experiential. D.R.I.V.E. Diagnostics revealed the brand had strong equity but weak visibility - the solution was amplification, not reinvention.",
     execution:
       "New brand identity rolled out across all touchpoints. Editorial video series produced over 8 weeks. Press seeding to 40 European luxury publications. Three pop-up experiences in Paris, Milan, and Amsterdam. Influencer programme with 8 macro-creators.",
     results: [
@@ -112,9 +112,9 @@ export const caseStudies: CaseStudy[] = [
     headline: "8x Revenue Growth in One Quarter",
     thumbnail: "/placeholders/case-4.jpg",
     challenge:
-      "Miami-based streetwear brand with cult following but no performance infrastructure. They were leaving serious money on the table — organic content was converting but paid acquisition was untested.",
+      "Miami-based streetwear brand with cult following but no performance infrastructure. They were leaving serious money on the table - organic content was converting but paid acquisition was untested.",
     strategy:
-      "The brand's organic content was already gold — we built a paid amplification engine around it. D.R.I.V.E. Infrastructure assessment identified key UGC hooks that resonated most, and we systematised production of similar content at scale.",
+      "The brand's organic content was already gold - we built a paid amplification engine around it. D.R.I.V.E. Infrastructure assessment identified key UGC hooks that resonated most, and we systematised production of similar content at scale.",
     execution:
       "60 ad creatives produced from existing organic content and new UGC shoots. TikTok Ads launched alongside Meta retargeting. Email flows rebuilt from scratch. Three-tier loyalty programme launched to boost LTV.",
     results: [

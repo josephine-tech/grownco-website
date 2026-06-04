@@ -24,9 +24,16 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div className="md:col-span-2">
-            <Link href="/">
-              <span className="font-display text-3xl font-bold text-text-primary">
-                Grow<span className="text-gold"> N</span> Co
+            <Link href="/" className="flex items-center gap-2.5">
+              <div className="w-7 h-7 flex-shrink-0">
+                <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
+                  <path d="M14 24C14 24 6 18 6 11C6 7.13401 9.13401 4 13 4C13.338 4 13.671 4.0232 14 4.0682C14.329 4.0232 14.662 4 15 4C18.866 4 22 7.13401 22 11C22 18 14 24 14 24Z" fill="#056419" opacity="0.9" />
+                  <path d="M14 24V12M14 12C14 12 10 10 8 7" stroke="#FAFAF7" strokeWidth="1.2" strokeLinecap="round" opacity="0.7" />
+                </svg>
+              </div>
+              <span className="font-display text-3xl font-bold">
+                <span style={{ color: "#056419" }}>Grow</span>
+                <span className="text-text-primary"> N Co</span>
               </span>
             </Link>
             <p className="mt-4 font-body text-muted text-sm leading-relaxed max-w-xs">

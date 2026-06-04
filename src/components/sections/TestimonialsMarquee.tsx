@@ -12,7 +12,7 @@ const row1 = [
 ];
 
 const row2 = [
-  { quote: "D.R.I.V.E. isn't just marketing language — they live it in every decision.", name: "Aisha Mensah", brand: "Luminary Labs", source: "Clutch" },
+  { quote: "D.R.I.V.E. isn't just marketing language - they live it in every decision.", name: "Aisha Mensah", brand: "Luminary Labs", source: "Clutch" },
   { quote: "Three campaigns, three wins. The consistency is what stands out.", name: "Tomás García", brand: "Meridian Brands", source: "Trustpilot" },
   { quote: "Our brand awareness across Europe is up 180%. The PR strategy was exceptional.", name: "James Alderton", brand: "Maison Alderton", source: "Google" },
   { quote: "They built our creator roster from scratch. The results speak for themselves.", name: "Kwame Asante", brand: "Self", source: "Google" },

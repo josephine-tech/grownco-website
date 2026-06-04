@@ -14,7 +14,7 @@ const previewServices = [
   {
     name: "AI Content Factory",
     price: "$5,000 / mo",
-    description: "Unlimited AI-assisted content production — video, copy, graphics — at a fraction of traditional costs.",
+    description: "Unlimited AI-assisted content production - video, copy, graphics - at a fraction of traditional costs.",
     deliverables: ["200+ content pieces/month", "AI-assisted production", "Brand voice training", "Multi-platform distribution"],
     featured: true,
   },
@@ -27,7 +27,7 @@ const previewServices = [
   {
     name: "Growth & Scale Strategy",
     price: "$1,200 / mo",
-    description: "The strategic layer — market analysis, growth roadmap, channel mix, and competitive positioning.",
+    description: "The strategic layer - market analysis, growth roadmap, channel mix, and competitive positioning.",
     deliverables: ["Quarterly growth plan", "Market analysis", "Channel strategy", "KPI framework"],
   },
 ];

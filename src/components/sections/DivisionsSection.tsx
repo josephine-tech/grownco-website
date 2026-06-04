@@ -8,7 +8,7 @@ const divisions = [
     id: "ecommerce",
     title: "E-Commerce Division",
     tagline: "Performance at Scale",
-    description: "We build and scale direct-to-consumer revenue engines. From scroll-stopping creative to precision media buying — every decision is driven by data and optimised for return.",
+    description: "We build and scale direct-to-consumer revenue engines. From scroll-stopping creative to precision media buying - every decision is driven by data and optimised for return.",
     services: ["60 Ad Creatives / Month", "AI Content Factory", "Growth & Scale Strategy", "Paid Media Buying"],
     accent: "from-gold/10 to-transparent",
     borderAccent: "border-gold/20 hover:border-gold/60",
@@ -18,7 +18,7 @@ const divisions = [
     id: "traditional",
     title: "Traditional Marketing Division",
     tagline: "Brand. Presence. Empire.",
-    description: "For brands that want to own their market, not just compete in it. Full-spectrum brand marketing — from identity to PR to coordinated global campaigns.",
+    description: "For brands that want to own their market, not just compete in it. Full-spectrum brand marketing - from identity to PR to coordinated global campaigns.",
     services: ["Presence Package", "Brand Package", "Empire Package", "Brand Foundation"],
     accent: "from-white/5 to-transparent",
     borderAccent: "border-white/10 hover:border-white/30",
@@ -39,7 +39,7 @@ export default function DivisionsSection() {
         >
           <p className="font-mono text-xs uppercase tracking-widest text-gold mb-4">Our Divisions</p>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-text-primary">
-            Three Divisions.<br />One Standard.
+            Two Divisions.<br />One Standard.
           </h2>
         </motion.div>
 
@@ -97,10 +97,10 @@ export default function DivisionsSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          <p className="font-mono text-xs uppercase tracking-widest text-gold mb-2">Third Division</p>
+          <p className="font-mono text-xs uppercase tracking-widest text-gold mb-2">Within Both Divisions</p>
           <h3 className="font-display text-2xl font-bold text-text-primary mb-2">Talent Management</h3>
-          <p className="font-body text-muted max-w-lg mx-auto text-sm mb-6">
-            We don&apos;t just work with creators — we build them. Full management, brand deals, and content strategy for the next generation of digital talent.
+          <p className="font-body text-muted max-w-2xl mx-auto text-sm mb-6">
+            Personal brand management for creators. Viral video ideation for brands using talent. Two distinct offerings, one team.
           </p>
           <Link
             href="/talent"

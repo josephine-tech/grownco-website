@@ -6,7 +6,7 @@ interface CalendlyEmbedProps {
   url?: string;
 }
 
-export default function CalendlyEmbed({ url = "https://calendly.com/grownco/strategy-call" }: CalendlyEmbedProps) {
+export default function CalendlyEmbed({ url = "https://calendly.com/grownco" }: CalendlyEmbedProps) {
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://assets.calendly.com/assets/external/widget.js";
