@@ -8,27 +8,27 @@ const previewServices = [
   {
     name: "60 Ad Creatives",
     price: "From $1,800 / mo",
-    description: "60 scroll-stopping ad creatives per month, optimised for Meta and TikTok performance. Ideated to scale.",
-    deliverables: ["60 static + video ads", "Platform-native formats", "Weekly creative briefs", "Performance reporting"],
+    description: "Psychology-backed ad creatives built to sell desire, not products. 20 AI videos and 40 statics, delivered in two batches every month.",
+    deliverables: ["20 AI videos + 40 statics and b-roll", "Desire-mapped creative briefs", "Platform-sized for Meta, TikTok, Google", "Delivered Day 7 and Day 21"],
   },
   {
     name: "AI Content Factory",
-    price: "From $3,000 / mo",
-    description: "Unlimited AI-assisted content production — video, copy, graphics — at a fraction of traditional costs. Ideated to scale.",
-    deliverables: ["200+ content pieces/month", "AI-assisted production", "Brand voice training", "Multi-platform distribution"],
+    price: "From $5,000 / mo",
+    description: "550 AI-generated videos per month. Four distinct AI influencer characters. Every video tested organically before paid spend touches it.",
+    deliverables: ["550 videos per month", "4 hyper-realistic AI influencers", "Desire-mapped and hook-tested", "TikTok, Reels, YouTube Shorts ready"],
     featured: true,
   },
   {
     name: "Media Buying",
     price: "From $1,500 / mo",
-    description: "Full-service paid media management across Meta, Google, TikTok, and programmatic. Ideated to scale.",
-    deliverables: ["Campaign architecture", "Daily optimisation", "A/B testing framework", "Monthly reporting"],
+    description: "Daily campaign management across Meta, Google, and TikTok. Kill decisions within 72 hours. Your budget never burns on untested content.",
+    deliverables: ["Meta, Google, TikTok campaigns", "Daily monitoring and optimisation", "Kill decisions within 72 hours", "Weekly performance reports"],
   },
   {
     name: "Growth & Scale Strategy",
     price: "From $1,200 / mo",
-    description: "Includes 2 ideated AI influencers with up to 50+ videos each, plus market analysis and growth roadmap. Ideated to scale.",
-    deliverables: ["2 AI influencers (50+ videos each)", "Quarterly growth plan", "Channel strategy", "KPI framework"],
+    description: "Two AI influencers, twenty videos each, posted ten per day organically. The market picks the winner before your ad budget goes behind it.",
+    deliverables: ["2 AI influencers, 40 videos total", "10 videos posted daily organically", "Data-driven kill and scale protocol", "Winners scaled with paid immediately"],
   },
 ];
 

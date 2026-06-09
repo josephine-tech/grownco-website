@@ -152,7 +152,7 @@ How They Found Us: ${data.heardAboutUs}
               <path d="M5 14l6 6L23 8" stroke="#C9A84C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </div>
-          <h2 className="font-display text-4xl font-bold text-text-primary mb-4">Your email client should open.</h2>
+          <h2 className="font-display text-4xl font-bold text-text-primary mb-4">Your outreach is ready!!</h2>
           <p className="font-body text-muted leading-relaxed mb-2">
             Your discovery form is pre-filled and ready to send to josephine@grownco.uk.
           </p>

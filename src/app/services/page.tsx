@@ -14,54 +14,54 @@ const ecommerceServices = {
     {
       name: "60 Ad Creatives",
       price: "From $1,800 / mo",
-      description: "60 scroll-stopping ad creatives per month built for Meta and TikTok performance. Ideated to scale.",
-      deliverables: ["60 static + video ads", "Platform-native formats", "Weekly creative briefs", "Performance reporting", "Unlimited revisions"],
+      description: "Psychology-backed ad creatives built to sell desire, not products. Twenty AI-generated videos and forty statics and b-roll pieces, delivered in two batches every month.",
+      deliverables: ["20 AI videos + 40 statics and b-roll", "Desire-mapped creative briefs", "Platform-sized for Meta, TikTok, Google", "Delivered Day 7 and Day 21"],
     },
     {
       name: "AI Content Factory",
-      price: "From $3,000 / mo",
-      description: "Unlimited AI-assisted content production at a fraction of traditional costs. Ideated to scale.",
-      deliverables: ["200+ content pieces/month", "AI-assisted production pipeline", "Brand voice training", "Multi-platform distribution", "Content calendar management"],
+      price: "From $5,000 / mo",
+      description: "550 AI-generated videos per month powered by four distinct AI influencer characters. Every video mapped to a human desire, tested organically before a single dollar of paid spend goes behind it.",
+      deliverables: ["550 videos per month", "4 hyper-realistic AI influencers", "Desire-mapped and hook-tested", "TikTok, Reels, YouTube Shorts ready"],
       featured: true,
     },
     {
       name: "Growth & Scale Strategy",
       price: "From $1,200 / mo",
-      description: "The strategic layer. Includes 2 ideated AI influencers with up to 50+ videos each, built to scale your brand. Ideated to scale.",
-      deliverables: ["2 AI influencers (50+ videos each)", "Quarterly growth plan", "Competitor market analysis", "Channel strategy", "KPI framework + tracking", "Monthly strategy sessions"],
+      description: "Two AI influencers, twenty videos each, creatively strategized and posted ten per day organically. We let the market pick the winner before paid spend touches it.",
+      deliverables: ["2 AI influencers, 40 videos total", "10 videos posted daily organically", "Data-driven kill and scale protocol", "Winners scaled with paid immediately"],
     },
     {
       name: "Media Buying",
       price: "From $1,500 / mo",
-      description: "Full-service paid media management across Meta, Google, TikTok, and programmatic channels. Ideated to scale.",
-      deliverables: ["Campaign architecture", "Daily budget optimisation", "A/B testing framework", "Monthly performance reports", "Cross-channel attribution"],
+      description: "Daily campaign management across Meta, Google, and TikTok. We kill what doesn't work within 72 hours and scale what does immediately. Your budget never burns on untested content.",
+      deliverables: ["Meta, Google, TikTok campaigns", "Daily monitoring and optimisation", "Kill decisions within 72 hours", "Weekly performance reports"],
     },
   ],
   global: [
     {
       name: "60 Ad Creatives",
       price: "From $2,400 / mo",
-      description: "60 scroll-stopping ad creatives per month built for Meta and TikTok performance. Ideated to scale.",
-      deliverables: ["60 static + video ads", "Platform-native formats", "Weekly creative briefs", "Performance reporting", "Unlimited revisions"],
+      description: "Psychology-backed ad creatives built to sell desire, not products. Twenty AI-generated videos and forty statics and b-roll pieces, delivered in two batches every month.",
+      deliverables: ["20 AI videos + 40 statics and b-roll", "Desire-mapped creative briefs", "Platform-sized for Meta, TikTok, Google", "Delivered Day 7 and Day 21"],
     },
     {
       name: "AI Content Factory",
-      price: "From $3,000 / mo",
-      description: "Unlimited AI-assisted content production at a fraction of traditional costs. Ideated to scale.",
-      deliverables: ["200+ content pieces/month", "AI-assisted production pipeline", "Brand voice training", "Multi-platform distribution", "Content calendar management"],
+      price: "From $5,000 / mo",
+      description: "550 AI-generated videos per month powered by four distinct AI influencer characters. Every video mapped to a human desire, tested organically before a single dollar of paid spend goes behind it.",
+      deliverables: ["550 videos per month", "4 hyper-realistic AI influencers", "Desire-mapped and hook-tested", "TikTok, Reels, YouTube Shorts ready"],
       featured: true,
     },
     {
       name: "Growth & Scale Strategy",
       price: "From $1,800 / mo",
-      description: "The strategic layer. Includes 2 ideated AI influencers with up to 50+ videos each, built to scale your brand. Ideated to scale.",
-      deliverables: ["2 AI influencers (50+ videos each)", "Quarterly growth plan", "Competitor market analysis", "Channel strategy", "KPI framework + tracking", "Monthly strategy sessions"],
+      description: "Two AI influencers, twenty videos each, creatively strategized and posted ten per day organically. We let the market pick the winner before paid spend touches it.",
+      deliverables: ["2 AI influencers, 40 videos total", "10 videos posted daily organically", "Data-driven kill and scale protocol", "Winners scaled with paid immediately"],
     },
     {
       name: "Media Buying",
       price: "From $2,200 / mo",
-      description: "Full-service paid media management across Meta, Google, TikTok, and programmatic channels. Ideated to scale.",
-      deliverables: ["Campaign architecture", "Daily budget optimisation", "A/B testing framework", "Monthly performance reports", "Cross-channel attribution"],
+      description: "Daily campaign management across Meta, Google, and TikTok. We kill what doesn't work within 72 hours and scale what does immediately. Your budget never burns on untested content.",
+      deliverables: ["Meta, Google, TikTok campaigns", "Daily monitoring and optimisation", "Kill decisions within 72 hours", "Weekly performance reports"],
     },
   ],
 };
@@ -78,14 +78,14 @@ const bundles = {
       tier: "Growth",
       price: "From $6,500 / mo",
       tagline: "The full performance engine for serious brands.",
-      includes: ["60 Ad Creatives", "AI Content Factory (50 pieces)", "Media Buying (Multi-channel)", "Growth & Scale Strategy", "2 AI Influencers (50+ videos each)", "Weekly Optimisation Calls"],
+      includes: ["60 Ad Creatives", "AI Content Factory (50 pieces)", "Media Buying (Multi-channel)", "Growth & Scale Strategy", "2 AI Influencers (40 videos total)", "Weekly Optimisation Calls"],
       featured: true,
     },
     {
       tier: "Scale",
       price: "From $9,500 / mo",
       tagline: "Everything. Maximum velocity. No ceiling.",
-      includes: ["AI Content Factory (200+ pieces)", "Full Media Buying Suite", "Growth & Scale Strategy", "2 AI Influencers (50+ videos each)", "UGC Creator Network (10 creators)", "Dedicated Account Manager", "Weekly Strategy Calls", "Custom Reporting"],
+      includes: ["AI Content Factory (550 videos/mo)", "Full Media Buying Suite", "Growth & Scale Strategy", "2 AI Influencers (40 videos total)", "UGC Creator Network (10 creators)", "Dedicated Account Manager", "Weekly Strategy Calls"],
     },
   ],
   global: [
@@ -99,14 +99,14 @@ const bundles = {
       tier: "Growth",
       price: "From $9,000 / mo",
       tagline: "The full performance engine for serious brands.",
-      includes: ["60 Ad Creatives", "AI Content Factory (50 pieces)", "Media Buying (Multi-channel)", "Growth & Scale Strategy", "2 AI Influencers (50+ videos each)", "Weekly Optimisation Calls"],
+      includes: ["60 Ad Creatives", "AI Content Factory (50 pieces)", "Media Buying (Multi-channel)", "Growth & Scale Strategy", "2 AI Influencers (40 videos total)", "Weekly Optimisation Calls"],
       featured: true,
     },
     {
       tier: "Scale",
       price: "From $14,000 / mo",
       tagline: "Everything. Maximum velocity. No ceiling.",
-      includes: ["AI Content Factory (200+ pieces)", "Full Media Buying Suite", "Growth & Scale Strategy", "2 AI Influencers (50+ videos each)", "UGC Creator Network (10 creators)", "Dedicated Account Manager", "Weekly Strategy Calls", "Custom Reporting"],
+      includes: ["AI Content Factory (550 videos/mo)", "Full Media Buying Suite", "Growth & Scale Strategy", "2 AI Influencers (40 videos total)", "UGC Creator Network (10 creators)", "Dedicated Account Manager", "Weekly Strategy Calls"],
     },
   ],
 };
@@ -115,43 +115,43 @@ const traditionalServices = {
   africa: [
     {
       name: "Presence",
-      price: "From $800 / mo",
-      description: "Establish a commanding brand presence across key digital and traditional channels. Ideated to scale.",
-      deliverables: ["Social media management", "Basic PR outreach", "Brand consistency audit", "Monthly content calendar", "Basic SEO foundation"],
+      price: "From $400 / mo",
+      description: "Consistent, professional social media presence across three platforms. Content created using AI tools and creative direction — posted, managed, and reported on every month.",
+      deliverables: ["12-20 posts per month across 3 platforms", "AI-generated and directed content", "Community management — 50 DMs/day cap", "Monthly performance report"],
     },
     {
       name: "Brand",
-      price: "From $2,500 / mo",
-      description: "Full brand marketing activation, identity, storytelling, and multi-channel campaigns. Ideated to scale.",
-      deliverables: ["Brand identity refinement", "Campaign development", "PR & media relations", "Influencer strategy", "Editorial content production", "Market positioning"],
+      price: "From $800 / mo",
+      description: "Everything in Presence plus paid ads, ad testing, and active campaign management. We plan and execute your events and launches — not just advise on them.",
+      deliverables: ["5 dedicated ad creatives per month", "Paid ads managed by specialist (15% of spend)", "Ad testing using D.R.I.V.E. methodology", "Event, launch, and rollout execution", "Weekly strategy call — founder led"],
       featured: true,
     },
     {
       name: "Empire",
-      price: "From $6,000 / mo",
-      description: "Total market domination. Full-spectrum brand marketing with global reach. Ideated to scale.",
-      deliverables: ["Complete brand strategy", "Pan-regional campaigns", "Tier-1 PR & press", "Celebrity / macro influencer", "Experiential activations", "Cross-border market entry", "Executive brand advisory"],
+      price: "From $1,500 / mo",
+      description: "Everything in Brand plus two campaign shoot days, two fully managed events per month, and up to 50 curated influencer recommendations.",
+      deliverables: ["2 campaign shoot days per month", "2 events fully managed end-to-end", "Up to 50 influencer recommendations", "Partnership strategy and coordination", "Full offline brand tactics"],
     },
   ],
   global: [
     {
       name: "Presence",
       price: "From $1,500 / mo",
-      description: "Establish a commanding brand presence across key digital and traditional channels. Ideated to scale.",
-      deliverables: ["Social media management", "Basic PR outreach", "Brand consistency audit", "Monthly content calendar", "Basic SEO foundation"],
+      description: "Consistent, professional social media presence across three platforms. Content created using AI tools and creative direction — posted, managed, and reported on every month.",
+      deliverables: ["12-20 posts per month across 3 platforms", "AI-generated and directed content", "Community management — 50 DMs/day cap", "Monthly performance report"],
     },
     {
       name: "Brand",
-      price: "From $4,500 / mo",
-      description: "Full brand marketing activation, identity, storytelling, and multi-channel campaigns. Ideated to scale.",
-      deliverables: ["Brand identity refinement", "Campaign development", "PR & media relations", "Influencer strategy", "Editorial content production", "Market positioning"],
+      price: "From $2,500 / mo",
+      description: "Everything in Presence plus paid ads, ad testing, and active campaign management. We plan and execute your events and launches — not just advise on them.",
+      deliverables: ["5 dedicated ad creatives per month", "Paid ads managed by specialist (15% of spend)", "Ad testing using D.R.I.V.E. methodology", "Event, launch, and rollout execution", "Weekly strategy call — founder led"],
       featured: true,
     },
     {
       name: "Empire",
-      price: "From $10,000 / mo",
-      description: "Total market domination. Full-spectrum brand marketing with global reach. Ideated to scale.",
-      deliverables: ["Complete brand strategy", "Pan-regional campaigns", "Tier-1 PR & press", "Celebrity / macro influencer", "Experiential activations", "Cross-border market entry", "Executive brand advisory"],
+      price: "From $4,000 / mo",
+      description: "Everything in Brand plus two campaign shoot days, two fully managed events per month, and up to 50 curated influencer recommendations.",
+      deliverables: ["2 campaign shoot days per month", "2 events fully managed end-to-end", "Up to 50 influencer recommendations", "Partnership strategy and coordination", "Full offline brand tactics"],
     },
   ],
 };
@@ -161,64 +161,40 @@ const valueAdded = {
     {
       name: "Brand Foundation",
       price: "From $350 one-time",
-      description: "Logo, brand guidelines, colour palette, typography system. The foundation everything is built on. Ideated to scale.",
+      description: "Logo, brand guidelines, colour palette, typography system. The foundation everything is built on.",
       deliverables: ["Logo suite", "Brand guidelines doc", "Colour + typography system", "Business card design"],
     },
     {
       name: "UGC & Influencer Matching",
       price: "From $100 / creator",
-      description: "We source, vet, and match your brand with the right UGC creators and micro-influencers. Ideated to scale.",
+      description: "We source, vet, and match your brand with the right UGC creators and micro-influencers.",
       deliverables: ["Creator vetting", "Brief development", "Contracting support", "Performance tracking"],
     },
     {
       name: "Outreach & Onboarding",
       price: "From $500 / 100 creators",
-      description: "Mass creator outreach and professional onboarding at scale. Ideated to scale.",
+      description: "Mass creator outreach and professional onboarding at scale.",
       deliverables: ["100 creator outreach", "Onboarding flow", "Contract templates", "Dashboard access"],
-    },
-    {
-      name: "Talent Management (Personal)",
-      price: "$300 / creator",
-      description: "Full personal brand management for individual creators, from brand deals to platform growth. Ideated to scale.",
-      deliverables: ["Brand deal sourcing", "Contract negotiation", "Content strategy", "Platform growth support"],
-    },
-    {
-      name: "Talent Management (Brand)",
-      price: "$500 / brand campaign",
-      description: "For brands looking to ideate viral videos using their own talent or creators. We concept, script, and produce. Ideated to scale.",
-      deliverables: ["Viral concept ideation", "Script & brief development", "Creator direction", "Production oversight", "Performance reporting"],
     },
   ],
   global: [
     {
       name: "Brand Foundation",
       price: "From $600 one-time",
-      description: "Logo, brand guidelines, colour palette, typography system. The foundation everything is built on. Ideated to scale.",
+      description: "Logo, brand guidelines, colour palette, typography system. The foundation everything is built on.",
       deliverables: ["Logo suite", "Brand guidelines doc", "Colour + typography system", "Business card design"],
     },
     {
       name: "UGC & Influencer Matching",
       price: "From $150 / creator",
-      description: "We source, vet, and match your brand with the right UGC creators and micro-influencers. Ideated to scale.",
+      description: "We source, vet, and match your brand with the right UGC creators and micro-influencers.",
       deliverables: ["Creator vetting", "Brief development", "Contracting support", "Performance tracking"],
     },
     {
       name: "Outreach & Onboarding",
       price: "From $800 / 100 creators",
-      description: "Mass creator outreach and professional onboarding at scale. Ideated to scale.",
+      description: "Mass creator outreach and professional onboarding at scale.",
       deliverables: ["100 creator outreach", "Onboarding flow", "Contract templates", "Dashboard access"],
-    },
-    {
-      name: "Talent Management (Personal)",
-      price: "$300 / creator",
-      description: "Full personal brand management for individual creators, from brand deals to platform growth. Ideated to scale.",
-      deliverables: ["Brand deal sourcing", "Contract negotiation", "Content strategy", "Platform growth support"],
-    },
-    {
-      name: "Talent Management (Brand)",
-      price: "$500 / brand campaign",
-      description: "For brands looking to ideate viral videos using their own talent or creators. We concept, script, and produce. Ideated to scale.",
-      deliverables: ["Viral concept ideation", "Script & brief development", "Creator direction", "Production oversight", "Performance reporting"],
     },
   ],
 };
@@ -245,7 +221,6 @@ export default function ServicesPage() {
             </h1>
             <p className="font-body text-muted text-lg leading-relaxed">
               Transparent pricing. Clear deliverables. No retainers that go nowhere.
-              Every service is ideated to scale.
             </p>
           </motion.div>
         </div>
@@ -270,7 +245,7 @@ export default function ServicesPage() {
         <div>
           <section className="section-pad bg-background">
             <div className="max-w-7xl mx-auto px-6">
-              <SectionBand label="E-Commerce Division" title="Individual Services" subtitle="Each service is available standalone or as part of a bundle. All ideated to scale." className="mb-12" />
+              <SectionBand label="E-Commerce Division" title="Individual Services" subtitle="Each service is available standalone or as part of a bundle." className="mb-12" />
               <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 {ecommerceServices[region].map((svc, i) => (
                   <motion.div
@@ -310,7 +285,7 @@ export default function ServicesPage() {
       {division === "traditional" && (
         <section className="section-pad bg-background">
           <div className="max-w-7xl mx-auto px-6">
-            <SectionBand label="Traditional Marketing Division" title="Brand Packages" subtitle="Three tiers of brand marketing, from establishing presence to owning your entire market. All ideated to scale." className="mb-12" />
+            <SectionBand label="Traditional Marketing Division" title="Brand Packages" subtitle="Three tiers of brand marketing, from establishing presence to owning your market." className="mb-12" />
             <div className="grid sm:grid-cols-3 gap-6">
               {traditionalServices[region].map((svc, i) => (
                 <motion.div
@@ -331,7 +306,7 @@ export default function ServicesPage() {
       <section className="section-pad bg-surface border-t border-white/5">
         <div className="max-w-7xl mx-auto px-6">
           <SectionBand label="Talent Management" title="Two Ways We Manage Talent" subtitle="Whether you are a creator building a personal brand or a company looking to ideate viral videos using talent, we have a service built for you." className="mb-12" />
-          <div className="grid md:grid-cols-2 gap-6 mb-6">
+          <div className="grid md:grid-cols-2 gap-6">
             {/* Personal */}
             <motion.div
               className="p-8 bg-background border border-white/8 rounded-sm hover:border-gold/20 transition-colors duration-300"
@@ -384,9 +359,9 @@ export default function ServicesPage() {
       {/* Value-added services */}
       <section className="section-pad bg-background border-t border-white/5">
         <div className="max-w-7xl mx-auto px-6">
-          <SectionBand label="Add-Ons" title="Value-Added Services" subtitle="Stack these with any package to extend your reach. All ideated to scale." className="mb-12" />
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {valueAdded[region].slice(0, 3).map((svc, i) => (
+          <SectionBand label="Add-Ons" title="Value-Added Services" subtitle="Stack these with any package to extend your reach." className="mb-12" />
+          <div className="grid sm:grid-cols-3 gap-4">
+            {valueAdded[region].map((svc, i) => (
               <motion.div
                 key={svc.name}
                 initial={{ opacity: 0, y: 20 }}

@@ -27,7 +27,7 @@ export default function TestimonialsMarquee() {
         <div className="text-center">
           <p className="font-mono text-xs uppercase tracking-widest text-gold mb-4">Client Voices</p>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-text-primary">
-            What They Say.
+            What our Clients are Saying.
           </h2>
         </div>
       </div>

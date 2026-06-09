@@ -83,12 +83,12 @@ export default function AboutDetail() {
             <FadeInUp delay={0.15}>
               <div className="space-y-4">
                 {[
-                  { year: "2019", event: "Founded in Lagos, Nigeria" },
-                  { year: "2020", event: "D.R.I.V.E. methodology formalised" },
-                  { year: "2021", event: "London office opened. European expansion begins." },
-                  { year: "2022", event: "Talent Management division launched" },
-                  { year: "2023", event: "Americas market entered. Miami presence established." },
-                  { year: "2024", event: "200+ brands scaled across 12+ markets" },
+                  { year: "2021", event: "Grow N Co founded." },
+                  { year: "2022", event: "£500,000 in profit generated for PPC clients." },
+                  { year: "2023", event: "$2M+ in profits generated across all clients." },
+                  { year: "2024", event: "D.R.I.V.E. methodology formulated." },
+                  { year: "2025", event: "$6M in profit generated across all clients." },
+                  { year: "2026", event: "Methods reiterated for the modern climate." },
                 ].map((item, i) => (
                   <motion.div
                     key={item.year}
