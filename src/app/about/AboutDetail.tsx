@@ -51,7 +51,7 @@ export default function AboutDetail() {
             <p className="font-body text-muted text-xl leading-relaxed max-w-2xl">
               Grow N Co was founded on a single belief: that world-class performance marketing
               shouldn&apos;t be reserved for brands with London or New York postcodes.
-              The methodology, the tools, the talent — it&apos;s all available, everywhere.
+              The methodology, the tools, the talent - it&apos;s all available, everywhere.
             </p>
           </motion.div>
         </div>
@@ -67,7 +67,7 @@ export default function AboutDetail() {
                 We Started with a Problem.
               </h2>
               <p className="font-body text-muted leading-relaxed mb-4">
-                Too many great brands — particularly across Africa — were either being ignored
+                Too many great brands - particularly across Africa - were either being ignored
                 by global agencies or being served watered-down strategies that weren&apos;t built
                 for their markets.
               </p>
@@ -76,7 +76,7 @@ export default function AboutDetail() {
                 market expertise, and a methodology that works regardless of geography.
               </p>
               <p className="font-body text-muted leading-relaxed">
-                Three divisions. One relentless focus. Scale.
+                Two divisions. One relentless focus. Scale.
               </p>
             </FadeInUp>
 
@@ -179,7 +179,7 @@ export default function AboutDetail() {
         </div>
       </section>
 
-      <CtaSection headline="Work With Us." subtext="Whether you're a brand looking to scale or a creator looking to build — we want to hear from you." ctaText="Get in Touch" />
+      <CtaSection headline="Work With Us." subtext="Whether you're a brand looking to scale or a creator looking to build - we want to hear from you." ctaText="Get in Touch" />
     </>
   );
 }

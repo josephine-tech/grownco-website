@@ -8,7 +8,6 @@ export default function HeroSection() {
     <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-background">
       {/* Animated grid background */}
       <div className="absolute inset-0 overflow-hidden">
-        {/* Grid lines */}
         <div
           className="absolute inset-0 opacity-[0.04]"
           style={{
@@ -19,7 +18,6 @@ export default function HeroSection() {
             backgroundSize: "80px 80px",
           }}
         />
-        {/* Radial gradient pulse */}
         <motion.div
           className="absolute inset-0"
           style={{
@@ -28,7 +26,6 @@ export default function HeroSection() {
           animate={{ scale: [1, 1.1, 1] }}
           transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
         />
-        {/* Noise/vignette */}
         <div
           className="absolute inset-0 opacity-60"
           style={{
@@ -38,32 +35,17 @@ export default function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-6 text-center">
-        {/* Label */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-        >
-          <span className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-widest text-gold border border-gold/30 px-4 py-2 rounded-sm mb-8">
-            <span className="w-1.5 h-1.5 rounded-full bg-gold animate-pulse" />
-            Global Performance Marketing Agency
-          </span>
-        </motion.div>
-
+      <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
         {/* Headline */}
         <motion.h1
-          className="font-display font-bold text-text-primary leading-[0.9] tracking-tight"
+          className="font-display font-bold text-text-primary leading-[1.05] tracking-tight"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4, ease: [0.4, 0, 0.2, 1] }}
-          style={{ fontSize: "clamp(3rem, 8vw, 7rem)" }}
+          transition={{ duration: 0.8, delay: 0.3, ease: [0.4, 0, 0.2, 1] }}
+          style={{ fontSize: "clamp(2.4rem, 6vw, 5.5rem)" }}
         >
-          We Don&apos;t Just{" "}
-          <span className="gradient-text italic">Market</span>
-          <br />
-          Brands. We{" "}
-          <span className="gradient-text italic">Scale</span> Them.
+          Every good brand must sell a desire.{" "}
+          <span className="gradient-text italic">We find yours</span> and place you as the bridge between your buyer and their deepest desires.
         </motion.h1>
 
         {/* Subheadline */}
@@ -71,10 +53,9 @@ export default function HeroSection() {
           className="mt-8 font-body text-lg md:text-xl text-muted max-w-2xl mx-auto leading-relaxed"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.6 }}
+          transition={{ duration: 0.6, delay: 0.55 }}
         >
-          Three divisions. One methodology. E-Commerce performance, Traditional brand marketing,
-          and Talent management — operating across Africa, Europe, and the Americas.
+          Two Divisions. One Secret Methodology. Brand Scaling and Talent Management; live across Africa, Europe and the Americas.
         </motion.p>
 
         {/* CTAs */}
@@ -82,7 +63,7 @@ export default function HeroSection() {
           className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.8 }}
+          transition={{ duration: 0.6, delay: 0.75 }}
         >
           <Link
             href="/contact"
@@ -107,7 +88,7 @@ export default function HeroSection() {
         >
           {[
             { value: "200+", label: "Brands Scaled" },
-            { value: "3", label: "Global Divisions" },
+            { value: "2", label: "Divisions" },
             { value: "4.2x", label: "Avg ROAS" },
             { value: "12+", label: "Markets" },
           ].map(({ value, label }) => (

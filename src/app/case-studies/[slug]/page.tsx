@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const study = getCaseStudy(params.slug);
   if (!study) return { title: "Case Study Not Found" };
   return {
-    title: `${study.brand} — ${study.headline}`,
+    title: `${study.brand} - ${study.headline}`,
     description: study.challenge.slice(0, 155),
   };
 }

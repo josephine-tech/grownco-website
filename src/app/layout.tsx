@@ -29,7 +29,7 @@ const dmMono = DM_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Grow N Co — Global Performance Marketing Agency",
+    default: "Grow N Co - Global Performance Marketing Agency",
     template: "%s | Grow N Co",
   },
   description:
@@ -49,14 +49,14 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://grownco.uk",
     siteName: "Grow N Co",
-    title: "Grow N Co — Global Performance Marketing Agency",
+    title: "Grow N Co - Global Performance Marketing Agency",
     description:
-      "A global performance marketing agency with three divisions: E-Commerce Marketing, Traditional Brand Marketing, and Talent Management.",
+      "A global performance marketing agency with two divisions: Brand Scaling and Talent Management.",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Grow N Co — Global Performance Marketing Agency",
+    title: "Grow N Co - Global Performance Marketing Agency",
     description:
       "A global performance marketing agency operating across Africa, Europe, and the Americas.",
   },

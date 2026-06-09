@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 const steps = [
   { num: "01", title: "Discovery", desc: "Deep-dive session to understand your brand, goals, and current performance. We diagnose before we prescribe." },
-  { num: "02", title: "Strategy", desc: "Custom growth strategy built on D.R.I.V.E. — market research, positioning, channel mix, and KPI framework." },
-  { num: "03", title: "Production", desc: "Creative infrastructure built. Ad creatives, content systems, campaign architecture — everything set up to perform." },
+  { num: "02", title: "Strategy", desc: "Custom growth strategy built on D.R.I.V.E. - market research, positioning, channel mix, and KPI framework." },
+  { num: "03", title: "Production", desc: "Creative infrastructure built. Ad creatives, content systems, campaign architecture - everything set up to perform." },
   { num: "04", title: "Launch", desc: "Campaigns go live with precision. Every variable tracked, every result attributed." },
   { num: "05", title: "Scale", desc: "We double down on what works and eliminate what doesn't. Continuous iteration toward your growth ceiling." },
 ];

@@ -8,11 +8,11 @@ import FadeInUp from "@/components/ui/FadeInUp";
 import CtaSection from "@/components/sections/CtaSection";
 
 const driveMap: Record<string, string> = {
-  D: "Diagnostics",
-  R: "Research",
-  I: "Infrastructure",
-  V: "Velocity",
-  E: "Expansion",
+  D: "Desire",
+  R: "Reflection",
+  I: "Identity",
+  V: "Voice",
+  E: "Execution",
 };
 
 export default function CaseStudyDetail({ study }: { study: CaseStudy }) {
@@ -85,7 +85,7 @@ export default function CaseStudyDetail({ study }: { study: CaseStudy }) {
         </div>
       </section>
 
-      {/* Strategy — D.R.I.V.E. */}
+      {/* Strategy - D.R.I.V.E. */}
       <section className="section-pad bg-surface border-t border-white/5">
         <div className="max-w-5xl mx-auto px-6">
           <FadeInUp>

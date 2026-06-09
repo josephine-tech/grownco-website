@@ -21,7 +21,7 @@ export default function LogoMarquee() {
               key={i}
               className="mx-10 flex-shrink-0 flex items-center gap-2"
             >
-              {/* Logo placeholder — replace with <Image> */}
+              {/* Logo placeholder - replace with <Image> */}
               <div className="h-7 w-24 bg-white/5 rounded-sm flex items-center justify-center border border-white/5">
                 <span className="font-mono text-[10px] uppercase tracking-widest text-muted/50">{logo}</span>
               </div>
