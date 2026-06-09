@@ -7,28 +7,28 @@ import Link from "next/link";
 const previewServices = [
   {
     name: "60 Ad Creatives",
-    price: "$1,800 / mo",
-    description: "60 scroll-stopping ad creatives per month, optimised for Meta and TikTok performance.",
+    price: "From $1,800 / mo",
+    description: "60 scroll-stopping ad creatives per month, optimised for Meta and TikTok performance. Ideated to scale.",
     deliverables: ["60 static + video ads", "Platform-native formats", "Weekly creative briefs", "Performance reporting"],
   },
   {
     name: "AI Content Factory",
-    price: "$5,000 / mo",
-    description: "Unlimited AI-assisted content production - video, copy, graphics - at a fraction of traditional costs.",
+    price: "From $3,000 / mo",
+    description: "Unlimited AI-assisted content production — video, copy, graphics — at a fraction of traditional costs. Ideated to scale.",
     deliverables: ["200+ content pieces/month", "AI-assisted production", "Brand voice training", "Multi-platform distribution"],
     featured: true,
   },
   {
     name: "Media Buying",
-    price: "$1,500 / mo",
-    description: "Full-service paid media management across Meta, Google, TikTok, and programmatic.",
+    price: "From $1,500 / mo",
+    description: "Full-service paid media management across Meta, Google, TikTok, and programmatic. Ideated to scale.",
     deliverables: ["Campaign architecture", "Daily optimisation", "A/B testing framework", "Monthly reporting"],
   },
   {
     name: "Growth & Scale Strategy",
-    price: "$1,200 / mo",
-    description: "The strategic layer - market analysis, growth roadmap, channel mix, and competitive positioning.",
-    deliverables: ["Quarterly growth plan", "Market analysis", "Channel strategy", "KPI framework"],
+    price: "From $1,200 / mo",
+    description: "Includes 2 ideated AI influencers with up to 50+ videos each, plus market analysis and growth roadmap. Ideated to scale.",
+    deliverables: ["2 AI influencers (50+ videos each)", "Quarterly growth plan", "Channel strategy", "KPI framework"],
   },
 ];
 
