@@ -36,7 +36,6 @@ export default function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
-        {/* Headline */}
         <motion.h1
           className="font-display font-bold text-text-primary leading-[1.05] tracking-tight"
           initial={{ opacity: 0, y: 30 }}
@@ -44,18 +43,17 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.3, ease: [0.4, 0, 0.2, 1] }}
           style={{ fontSize: "clamp(2.4rem, 6vw, 5.5rem)" }}
         >
-          Every good brand must sell a desire.{" "}
-          <span className="gradient-text italic">We find yours</span> and place you as the bridge between your buyer and their deepest desires.
+          Every successful brand sells a desire.{" "}
+          <span className="gradient-text italic">We want to find yours.</span>
         </motion.h1>
 
-        {/* Subheadline */}
         <motion.p
           className="mt-8 font-body text-lg md:text-xl text-muted max-w-2xl mx-auto leading-relaxed"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.55 }}
         >
-          Two Divisions. One Secret Methodology. Brand Scaling and Talent Management; live across Africa, Europe and the Americas.
+          Two Divisions. One Secret Methodology; Scaling Six Figure Brands &amp; Talent across Africa, Europe and the Americas.
         </motion.p>
 
         {/* CTAs */}

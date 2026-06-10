@@ -6,27 +6,27 @@ const pillars = [
   {
     letter: "D",
     name: "Desire",
-    description: "Every purchase is emotional before it is rational. We uncover the deepest desire your buyer is chasing and position your brand as the only bridge between where they are and where they want to be.",
+    description: "We don't sell products. We identify the human desire behind every product and build content that makes your audience feel it before they ever see what you're selling.",
   },
   {
     letter: "R",
     name: "Reflection",
-    description: "We hold a mirror to your brand, your market, and your competition. Honest, rigorous analysis of what is working, what is not, and what the opportunity really is before a single pound is spent.",
+    description: "Every piece of content we produce holds up a mirror. Your customer sees who they could become — not a product description, but a version of themselves they've been chasing.",
   },
   {
     letter: "I",
     name: "Identity",
-    description: "A brand without a clear identity is invisible. We crystallise who you are, who you are for, and why that matters at a level that drives both loyalty and conversion.",
+    description: "People don't buy things. They buy membership into a version of themselves — and we build content that makes your brand the thing that gets them there.",
   },
   {
     letter: "V",
     name: "Voice",
-    description: "The right message, in the right tone, through the right channel. We build your brand voice and deploy it with precision across every touchpoint your buyer encounters.",
+    description: "The right message through the wrong voice fails every time. We match each desire to the exact voice that makes it believable — peer, authority, aspirational, or insider.",
   },
   {
     letter: "E",
     name: "Execution",
-    description: "Strategy means nothing without flawless execution. We move fast, iterate weekly, and scale what works with the infrastructure and creative volume to sustain momentum at any scale.",
+    description: "We produce at volume, test organically, and only scale what the market has already proven. By the time your ad budget goes behind a piece of content, it has already won.",
   },
 ];
 
