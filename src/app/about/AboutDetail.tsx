@@ -83,12 +83,12 @@ export default function AboutDetail() {
             <FadeInUp delay={0.15}>
               <div className="space-y-4">
                 {[
-                  { year: "2021", event: "Grow N Co founded." },
+                  { year: "2021", event: "Our founder begins her freelance marketing journey." },
                   { year: "2022", event: "£500,000 in profit generated for PPC clients." },
                   { year: "2023", event: "$2M+ in profits generated across all clients." },
                   { year: "2024", event: "D.R.I.V.E. methodology formulated." },
-                  { year: "2025", event: "$6M in profit generated across all clients." },
-                  { year: "2026", event: "Methods reiterated for the modern climate." },
+                  { year: "2025", event: "Grow N Co created to bring modern marketing solutions." },
+                  { year: "2026", event: "Industry-changing methods launched." },
                 ].map((item, i) => (
                   <motion.div
                     key={item.year}
@@ -163,7 +163,10 @@ export default function AboutDetail() {
         <div className="max-w-7xl mx-auto px-6">
           <FadeInUp className="text-center mb-12">
             <p className="font-mono text-xs uppercase tracking-widest text-gold mb-4">Global Presence</p>
-            <h2 className="font-display text-4xl md:text-5xl font-bold text-text-primary">Where We Operate.</h2>
+            <h2 className="font-display text-4xl md:text-5xl font-bold text-text-primary mb-4">Where We Operate.</h2>
+            <p className="font-body text-muted text-lg max-w-2xl mx-auto">
+              These are our hubs - but our team works with brands and talent everywhere, regardless of location.
+            </p>
           </FadeInUp>
           <div className="grid md:grid-cols-3 gap-4">
             {markets.map((m, i) => (
