@@ -47,9 +47,9 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2.5 group">
+          <Link href="/" className="flex items-center gap-2 group">
             {/* Leaf/growth icon */}
-            <div className="w-7 h-7 relative flex-shrink-0">
+            <div className="w-5 h-5 relative flex-shrink-0">
               <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
                 <path
                   d="M14 24C14 24 6 18 6 11C6 7.13401 9.13401 4 13 4C13.338 4 13.671 4.0232 14 4.0682C14.329 4.0232 14.662 4 15 4C18.866 4 22 7.13401 22 11C22 18 14 24 14 24Z"
@@ -65,7 +65,7 @@ export default function Navbar() {
                 />
               </svg>
             </div>
-            <span className="font-display text-2xl font-bold leading-none">
+            <span className="font-display text-lg font-medium tracking-wide leading-none">
               <span style={{ color: "#056419" }}>Grow</span>
               <span className="text-text-primary"> N Co</span>
             </span>

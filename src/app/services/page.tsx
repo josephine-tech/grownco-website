@@ -116,14 +116,14 @@ const traditionalServices = {
     {
       name: "Presence",
       price: "From $400 / mo",
-      description: "Consistent, professional social media presence across three platforms. Content created using AI tools and creative direction — posted, managed, and reported on every month.",
-      deliverables: ["12-20 posts per month across 3 platforms", "AI-generated and directed content", "Community management — 50 DMs/day cap", "Monthly performance report"],
+      description: "Consistent, professional social media presence across three platforms. Content tailored to grip your specific customer base, posted, managed, and reported on every month.",
+      deliverables: ["12-20 posts per month across 3 platforms", "Tailored content creation and direction", "Community management — 50 DMs/day cap", "Monthly performance report"],
     },
     {
       name: "Brand",
       price: "From $800 / mo",
-      description: "Everything in Presence plus paid ads, ad testing, and active campaign management. We plan and execute your events and launches — not just advise on them.",
-      deliverables: ["5 dedicated ad creatives per month", "Paid ads managed by specialist (15% of spend)", "Ad testing using D.R.I.V.E. methodology", "Event, launch, and rollout execution", "Weekly strategy call — founder led"],
+      description: "Everything in Presence plus paid ads, ad testing, and active campaign management. We advise, plan and position events, launches and special offers to boost your engagement.",
+      deliverables: ["10 dedicated ad creatives per month", "Paid ads managed by specialist", "Ad testing using D.R.I.V.E. methodology", "Event, launch, and rollout execution", "Weekly strategy call — founder led"],
       featured: true,
     },
     {
@@ -137,14 +137,14 @@ const traditionalServices = {
     {
       name: "Presence",
       price: "From $1,500 / mo",
-      description: "Consistent, professional social media presence across three platforms. Content created using AI tools and creative direction — posted, managed, and reported on every month.",
-      deliverables: ["12-20 posts per month across 3 platforms", "AI-generated and directed content", "Community management — 50 DMs/day cap", "Monthly performance report"],
+      description: "Consistent, professional social media presence across three platforms. Content tailored to grip your specific customer base, posted, managed, and reported on every month.",
+      deliverables: ["12-20 posts per month across 3 platforms", "Tailored content creation and direction", "Community management — 50 DMs/day cap", "Monthly performance report"],
     },
     {
       name: "Brand",
       price: "From $2,500 / mo",
-      description: "Everything in Presence plus paid ads, ad testing, and active campaign management. We plan and execute your events and launches — not just advise on them.",
-      deliverables: ["5 dedicated ad creatives per month", "Paid ads managed by specialist (15% of spend)", "Ad testing using D.R.I.V.E. methodology", "Event, launch, and rollout execution", "Weekly strategy call — founder led"],
+      description: "Everything in Presence plus paid ads, ad testing, and active campaign management. We advise, plan and position events, launches and special offers to boost your engagement.",
+      deliverables: ["10 dedicated ad creatives per month", "Paid ads managed by specialist", "Ad testing using D.R.I.V.E. methodology", "Event, launch, and rollout execution", "Weekly strategy call — founder led"],
       featured: true,
     },
     {
@@ -160,13 +160,13 @@ const valueAdded = {
   africa: [
     {
       name: "Brand Foundation",
-      price: "From $350 one-time",
+      price: "From $150 one-time",
       description: "Logo, brand guidelines, colour palette, typography system. The foundation everything is built on.",
       deliverables: ["Logo suite", "Brand guidelines doc", "Colour + typography system", "Business card design"],
     },
     {
       name: "UGC & Influencer Matching",
-      price: "From $100 / creator",
+      price: "From $500 / 100 matched creators",
       description: "We source, vet, and match your brand with the right UGC creators and micro-influencers.",
       deliverables: ["Creator vetting", "Brief development", "Contracting support", "Performance tracking"],
     },
@@ -180,13 +180,13 @@ const valueAdded = {
   global: [
     {
       name: "Brand Foundation",
-      price: "From $600 one-time",
+      price: "From $150 one-time",
       description: "Logo, brand guidelines, colour palette, typography system. The foundation everything is built on.",
       deliverables: ["Logo suite", "Brand guidelines doc", "Colour + typography system", "Business card design"],
     },
     {
       name: "UGC & Influencer Matching",
-      price: "From $150 / creator",
+      price: "From $500 / 100 matched creators",
       description: "We source, vet, and match your brand with the right UGC creators and micro-influencers.",
       deliverables: ["Creator vetting", "Brief development", "Contracting support", "Performance tracking"],
     },
@@ -318,10 +318,10 @@ export default function ServicesPage() {
               <h3 className="font-display text-2xl font-bold text-text-primary mb-2">Personal Talent Management</h3>
               <p className="font-display text-3xl font-bold text-gold mb-4">$300 <span className="font-body text-sm text-muted font-normal">/ creator</span></p>
               <p className="font-body text-sm text-muted leading-relaxed mb-6">
-                Full personal brand management for individual creators. We handle brand deals, contracts, content strategy, and platform growth so you can focus on creating.
+                Our strong suit: brand direction and content ideation built for virality, backed by brand deal sourcing and contract negotiation. Terms and conditions apply, with a 10-brand cap before commission.
               </p>
               <ul className="space-y-2">
-                {["Brand deal sourcing", "Contract negotiation", "Content strategy", "Platform growth support", "Audience monetisation"].map((item) => (
+                {["Brand direction", "Content ideation for virality", "Brand deal sourcing", "Contract negotiation (10-brand cap before commission, T&Cs apply)", "Platform growth support"].map((item) => (
                   <li key={item} className="flex items-start gap-2">
                     <span className="mt-1.5 w-1 h-1 rounded-full bg-gold flex-shrink-0" />
                     <span className="font-body text-sm text-muted/80">{item}</span>
