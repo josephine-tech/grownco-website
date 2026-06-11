@@ -27,8 +27,8 @@ const ecommerceServices = {
     {
       name: "Growth & Scale Strategy",
       price: "From $1,200 / mo",
-      description: "Two AI influencers, twenty videos each, creatively strategized and posted ten per day organically. We let the market pick the winner before paid spend touches it.",
-      deliverables: ["2 AI influencers, 40 videos total", "10 videos posted daily organically", "Data-driven kill and scale protocol", "Winners scaled with paid immediately"],
+      description: "Two AI influencers, twenty videos each, creatively strategized and posted two per day organically so the campaign stretches out over time. We let the market pick the winner before paid spend touches it. You also keep the full b-roll, angles, personas, and backgrounds for both influencers, built around your ideal customer, so you can keep using them long after.",
+      deliverables: ["2 AI influencers, 40 videos total", "2 videos posted daily organically", "Data-driven kill and scale protocol", "Winners scaled with paid immediately", "Full b-roll and angles for every AI influencer", "Personas and backgrounds tailored to your ideal customer"],
     },
     {
       name: "Media Buying",
@@ -54,8 +54,8 @@ const ecommerceServices = {
     {
       name: "Growth & Scale Strategy",
       price: "From $1,800 / mo",
-      description: "Two AI influencers, twenty videos each, creatively strategized and posted ten per day organically. We let the market pick the winner before paid spend touches it.",
-      deliverables: ["2 AI influencers, 40 videos total", "10 videos posted daily organically", "Data-driven kill and scale protocol", "Winners scaled with paid immediately"],
+      description: "Two AI influencers, twenty videos each, creatively strategized and posted two per day organically so the campaign stretches out over time. We let the market pick the winner before paid spend touches it. You also keep the full b-roll, angles, personas, and backgrounds for both influencers, built around your ideal customer, so you can keep using them long after.",
+      deliverables: ["2 AI influencers, 40 videos total", "2 videos posted daily organically", "Data-driven kill and scale protocol", "Winners scaled with paid immediately", "Full b-roll and angles for every AI influencer", "Personas and backgrounds tailored to your ideal customer"],
     },
     {
       name: "Media Buying",
@@ -117,13 +117,13 @@ const traditionalServices = {
       name: "Presence",
       price: "From $400 / mo",
       description: "Consistent, professional social media presence across three platforms. Content tailored to grip your specific customer base, posted, managed, and reported on every month.",
-      deliverables: ["12-20 posts per month across 3 platforms", "Tailored content creation and direction", "Community management — 50 DMs/day cap", "Monthly performance report"],
+      deliverables: ["12-20 posts per month across 3 platforms", "Tailored content creation and direction", "Community management - 50 DMs/day cap", "Monthly performance report"],
     },
     {
       name: "Brand",
       price: "From $800 / mo",
       description: "Everything in Presence plus paid ads, ad testing, and active campaign management. We advise, plan and position events, launches and special offers to boost your engagement.",
-      deliverables: ["10 dedicated ad creatives per month", "Paid ads managed by specialist", "Ad testing using D.R.I.V.E. methodology", "Event, launch, and rollout execution", "Weekly strategy call — founder led"],
+      deliverables: ["10 dedicated ad creatives per month", "Paid ads managed by specialist", "Ad testing using D.R.I.V.E. methodology", "Event, launch, and rollout execution", "Weekly strategy call - founder led"],
       featured: true,
     },
     {
@@ -138,13 +138,13 @@ const traditionalServices = {
       name: "Presence",
       price: "From $1,500 / mo",
       description: "Consistent, professional social media presence across three platforms. Content tailored to grip your specific customer base, posted, managed, and reported on every month.",
-      deliverables: ["12-20 posts per month across 3 platforms", "Tailored content creation and direction", "Community management — 50 DMs/day cap", "Monthly performance report"],
+      deliverables: ["12-20 posts per month across 3 platforms", "Tailored content creation and direction", "Community management - 50 DMs/day cap", "Monthly performance report"],
     },
     {
       name: "Brand",
       price: "From $2,500 / mo",
       description: "Everything in Presence plus paid ads, ad testing, and active campaign management. We advise, plan and position events, launches and special offers to boost your engagement.",
-      deliverables: ["10 dedicated ad creatives per month", "Paid ads managed by specialist", "Ad testing using D.R.I.V.E. methodology", "Event, launch, and rollout execution", "Weekly strategy call — founder led"],
+      deliverables: ["10 dedicated ad creatives per month", "Paid ads managed by specialist", "Ad testing using D.R.I.V.E. methodology", "Event, launch, and rollout execution", "Weekly strategy call - founder led"],
       featured: true,
     },
     {
