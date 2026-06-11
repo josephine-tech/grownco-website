@@ -67,13 +67,12 @@ export default function AboutDetail() {
                 We Started with a Problem.
               </h2>
               <p className="font-body text-muted leading-relaxed mb-4">
-                Too many great brands - particularly across Africa - were either being ignored
-                by global agencies or being served watered-down strategies that weren&apos;t built
-                for their markets.
+                Too many great brands were either being ignored by global agencies or being
+                served watered-down strategies that weren&apos;t built for their markets.
               </p>
               <p className="font-body text-muted leading-relaxed mb-4">
-                So we built Grow N Co: an agency with genuine global reach, real African
-                market expertise, and a methodology that works regardless of geography.
+                So we built Grow N Co: an agency with genuine global reach, real market
+                expertise, and a methodology that works regardless of geography.
               </p>
               <p className="font-body text-muted leading-relaxed">
                 Two divisions. One relentless focus. Scale.

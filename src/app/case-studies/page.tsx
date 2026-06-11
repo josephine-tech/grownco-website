@@ -7,16 +7,12 @@ import CtaSection from "@/components/sections/CtaSection";
 import { caseStudies } from "@/data/caseStudies";
 
 type Division = "all" | "ecommerce" | "traditional";
-type Market = "all" | "africa" | "europe" | "americas" | "global";
 
 export default function CaseStudiesPage() {
   const [division, setDivision] = useState<Division>("all");
-  const [market, setMarket] = useState<Market>("all");
 
   const filtered = caseStudies.filter((cs) => {
-    const divMatch = division === "all" || cs.division === division;
-    const marketMatch = market === "all" || cs.market === market;
-    return divMatch && marketMatch;
+    return division === "all" || cs.division === division;
   });
 
   return (
@@ -36,8 +32,7 @@ export default function CaseStudiesPage() {
               <span className="gradient-text italic">Proud Of.</span>
             </h1>
             <p className="font-body text-muted text-lg leading-relaxed">
-              Every case study is a real client, real results, and real data.
-              No cherry-picking. No inflated numbers.
+              Every case study is a marker of who your brand can be through us.
             </p>
           </motion.div>
         </div>
@@ -57,21 +52,6 @@ export default function CaseStudiesPage() {
                 }`}
               >
                 {d === "all" ? "All" : d === "ecommerce" ? "E-Commerce" : "Traditional"}
-              </button>
-            ))}
-          </div>
-
-          {/* Market filter */}
-          <div className="flex items-center gap-1 bg-background border border-white/10 rounded-sm p-1">
-            {(["all", "africa", "europe", "americas", "global"] as Market[]).map((m) => (
-              <button
-                key={m}
-                onClick={() => setMarket(m)}
-                className={`px-3 py-1.5 rounded-sm font-mono text-[10px] uppercase tracking-widest transition-all duration-200 ${
-                  market === m ? "bg-gold text-background" : "text-muted hover:text-text-primary"
-                }`}
-              >
-                {m === "all" ? "All Markets" : m.charAt(0).toUpperCase() + m.slice(1)}
               </button>
             ))}
           </div>

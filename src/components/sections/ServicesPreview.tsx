@@ -27,8 +27,8 @@ const previewServices = [
   {
     name: "Growth & Scale Strategy",
     price: "From $1,200 / mo",
-    description: "Two AI influencers, twenty videos each, posted ten per day organically. The market picks the winner before your ad budget goes behind it.",
-    deliverables: ["2 AI influencers, 40 videos total", "10 videos posted daily organically", "Data-driven kill and scale protocol", "Winners scaled with paid immediately"],
+    description: "Two AI influencers, twenty videos each, posted two per day organically so the campaign stretches out. The market picks the winner before your ad budget goes behind it, and you keep the full b-roll, angles, personas, and backgrounds for both.",
+    deliverables: ["2 AI influencers, 40 videos total", "2 videos posted daily organically", "Full b-roll, angles, personas and backgrounds", "Winners scaled with paid immediately"],
   },
 ];
 

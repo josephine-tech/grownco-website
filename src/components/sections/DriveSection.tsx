@@ -11,17 +11,17 @@ const pillars = [
   {
     letter: "R",
     name: "Reflection",
-    description: "Every piece of content we produce holds up a mirror. Your customer sees who they could become — not a product description, but a version of themselves they've been chasing.",
+    description: "Every piece of content we produce holds up a mirror. Your customer sees who they could become - not a product description, but a version of themselves they've been chasing.",
   },
   {
     letter: "I",
     name: "Identity",
-    description: "People don't buy things. They buy membership into a version of themselves — and we build content that makes your brand the thing that gets them there.",
+    description: "People don't buy things. They buy membership into a version of themselves - and we build content that makes your brand the thing that gets them there.",
   },
   {
     letter: "V",
     name: "Voice",
-    description: "The right message through the wrong voice fails every time. We match each desire to the exact voice that makes it believable — peer, authority, aspirational, or insider.",
+    description: "The right message through the wrong voice fails every time. We match each desire to the exact voice that makes it believable - peer, authority, aspirational, or insider.",
   },
   {
     letter: "E",
@@ -53,7 +53,7 @@ export default function DriveSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            Every engagement begins with D.R.I.V.E. — our proprietary five-pillar methodology
+            Every engagement begins with D.R.I.V.E. - our proprietary five-pillar methodology
             built around one truth: desire drives every decision a buyer makes.
             Not guesswork. Not gut feel. A proven system.
           </motion.p>
