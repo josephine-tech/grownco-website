@@ -38,7 +38,7 @@ export default function ServiceCard({ name, price, description, deliverables, hr
       <ul className="flex-1 space-y-2 mb-6">
         {deliverables.map((item, i) => (
           <li key={i} className="flex items-start gap-2">
-            <span className="mt-1.5 w-1 h-1 rounded-full bg-gold flex-shrink-0" />
+            <span className="mt-1.5 w-1 h-1 rounded-full gold-orb flex-shrink-0" />
             <span className="font-body text-sm text-muted/80">{item}</span>
           </li>
         ))}

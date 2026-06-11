@@ -70,7 +70,7 @@ export default function DivisionsSection() {
               <ul className="space-y-2 mb-8">
                 {div.services.map((svc) => (
                   <li key={svc} className="flex items-center gap-3">
-                    <span className="w-1 h-1 rounded-full bg-gold flex-shrink-0" />
+                    <span className="w-1 h-1 rounded-full gold-orb flex-shrink-0" />
                     <span className="font-body text-sm text-text-primary/80">{svc}</span>
                   </li>
                 ))}

@@ -46,7 +46,7 @@ export default function CtaSection({
 
           <Link
             href={ctaHref}
-            className="inline-flex items-center gap-3 px-10 py-5 bg-gold text-background font-body font-bold text-base rounded-sm hover:bg-gold/90 transition-colors duration-200"
+            className="btn-gold inline-flex items-center gap-3 px-10 py-5 font-body font-bold text-base rounded-sm transition-colors duration-200"
           >
             {ctaText}
             <svg width="18" height="18" viewBox="0 0 18 18" fill="none">

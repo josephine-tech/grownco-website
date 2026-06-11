@@ -58,7 +58,7 @@ export default function TalentPage() {
             </p>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 font-body text-sm font-semibold px-6 py-3 bg-gold text-background rounded-sm hover:bg-gold/90 transition-colors duration-200"
+              className="btn-gold inline-flex items-center gap-2 font-body text-sm font-semibold px-6 py-3 rounded-sm transition-colors duration-200"
             >
               Work With Our Talent
             </Link>
