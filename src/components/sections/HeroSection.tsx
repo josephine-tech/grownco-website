@@ -65,7 +65,7 @@ export default function HeroSection() {
         >
           <Link
             href="/contact"
-            className="px-8 py-4 bg-gold text-background font-body font-semibold rounded-sm hover:bg-gold/90 transition-colors duration-200 w-full sm:w-auto text-center"
+            className="btn-gold px-8 py-4 font-body font-semibold rounded-sm transition-colors duration-200 w-full sm:w-auto text-center"
           >
             Book a Strategy Call
           </Link>

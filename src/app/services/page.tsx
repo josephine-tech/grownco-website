@@ -323,7 +323,7 @@ export default function ServicesPage() {
               <ul className="space-y-2">
                 {["Brand direction", "Content ideation for virality", "Brand deal sourcing", "Contract negotiation (10-brand cap before commission, T&Cs apply)", "Platform growth support"].map((item) => (
                   <li key={item} className="flex items-start gap-2">
-                    <span className="mt-1.5 w-1 h-1 rounded-full bg-gold flex-shrink-0" />
+                    <span className="mt-1.5 w-1 h-1 rounded-full gold-orb flex-shrink-0" />
                     <span className="font-body text-sm text-muted/80">{item}</span>
                   </li>
                 ))}
@@ -346,7 +346,7 @@ export default function ServicesPage() {
               <ul className="space-y-2">
                 {["Viral concept ideation", "Script & brief development", "Creator direction", "Production oversight", "Performance reporting"].map((item) => (
                   <li key={item} className="flex items-start gap-2">
-                    <span className="mt-1.5 w-1 h-1 rounded-full bg-gold flex-shrink-0" />
+                    <span className="mt-1.5 w-1 h-1 rounded-full gold-orb flex-shrink-0" />
                     <span className="font-body text-sm text-muted/80">{item}</span>
                   </li>
                 ))}

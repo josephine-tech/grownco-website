@@ -54,10 +54,57 @@ a, button, [role="button"] {
   }
 
   .gradient-text {
-    background: linear-gradient(135deg, #C9A84C 0%, #E8C97A 50%, #C9A84C 100%);
+    background: linear-gradient(115deg, #8A6D23 0%, #C9A84C 22%, #FFF6D2 45%, #C9A84C 68%, #8A6D23 100%);
+    background-size: 250% 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    animation: gold-shimmer 6s ease-in-out infinite;
+    filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.35));
+  }
+
+  @keyframes gold-shimmer {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+
+  .btn-gold {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(160deg, #F8E8B8 0%, #E0BD6B 30%, #C9A84C 55%, #9A7A2E 80%, #C9A84C 100%);
+    color: #1A1505;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.6),
+      inset 0 -2px 4px rgba(0, 0, 0, 0.35),
+      0 6px 16px rgba(201, 168, 76, 0.25);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  .btn-gold::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(120deg, transparent 35%, rgba(255, 255, 255, 0.6) 50%, transparent 65%);
+    transform: translateX(-120%);
+    transition: transform 0.8s ease;
+  }
+
+  .btn-gold:hover {
+    transform: translateY(-1px);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.7),
+      inset 0 -2px 4px rgba(0, 0, 0, 0.35),
+      0 10px 24px rgba(201, 168, 76, 0.4);
+  }
+
+  .btn-gold:hover::after {
+    transform: translateX(120%);
+  }
+
+  .gold-orb {
+    background: radial-gradient(circle at 32% 28%, #FFFBEA 0%, #F3D98B 30%, #C9A84C 60%, #8A6D23 100%);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5), inset 0 0 1.5px rgba(255, 255, 255, 0.7);
   }
 
   .gold-border {

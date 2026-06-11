@@ -45,7 +45,7 @@ export default function BundleCard({ tier, price, tagline, includes, featured = 
         href={href}
         className={`w-full text-center font-body text-sm font-semibold py-3 rounded-sm transition-colors duration-200 ${
           featured
-            ? "bg-gold text-background hover:bg-gold/90"
+            ? "btn-gold"
             : "border border-white/20 text-text-primary hover:border-gold/40 hover:text-gold"
         }`}
       >

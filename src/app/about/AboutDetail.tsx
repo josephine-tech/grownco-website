@@ -123,7 +123,7 @@ export default function AboutDetail() {
             {values.map((v, i) => (
               <FadeInUp key={v.label} delay={i * 0.1}>
                 <div className="p-6 bg-background border border-white/5 rounded-sm">
-                  <div className="w-2 h-2 rounded-full bg-gold mb-4" />
+                  <div className="w-2 h-2 rounded-full gold-orb mb-4" />
                   <h3 className="font-display text-xl font-semibold text-text-primary mb-2">{v.label}</h3>
                   <p className="font-body text-sm text-muted leading-relaxed">{v.desc}</p>
                 </div>

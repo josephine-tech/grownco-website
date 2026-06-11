@@ -93,7 +93,7 @@ export default function Navbar() {
           <div className="hidden md:flex items-center gap-4">
             <Link
               href="/contact"
-              className="font-body text-sm font-semibold px-5 py-2.5 bg-gold text-background rounded-sm hover:bg-gold/90 transition-colors duration-200"
+              className="btn-gold font-body text-sm font-semibold px-5 py-2.5 rounded-sm transition-colors duration-200"
             >
               Book a Call
             </Link>
@@ -161,7 +161,7 @@ export default function Navbar() {
               >
                 <Link
                   href="/contact"
-                  className="mt-4 inline-block font-body font-semibold px-8 py-3 bg-gold text-background rounded-sm"
+                  className="btn-gold mt-4 inline-block font-body font-semibold px-8 py-3 rounded-sm"
                 >
                   Book a Call
                 </Link>
