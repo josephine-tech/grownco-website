@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 import type { CaseStudy } from "@/data/caseStudies";
 import StatCounter from "@/components/ui/StatCounter";
@@ -65,11 +66,21 @@ export default function CaseStudyDetail({ study }: { study: CaseStudy }) {
         </div>
       </section>
 
-      {/* Thumbnail placeholder */}
+      {/* Thumbnail */}
       <section className="bg-surface-2">
         <div className="max-w-7xl mx-auto px-6 py-0">
-          <div className="aspect-[16/6] bg-surface border border-white/5 rounded-sm flex items-center justify-center -mt-4">
-            <span className="font-display text-8xl font-bold text-white/5 select-none">{study.brand.slice(0, 2).toUpperCase()}</span>
+          <div className="relative aspect-[16/6] bg-surface border border-white/5 rounded-sm overflow-hidden flex items-center justify-center -mt-4">
+            {study.thumbnail.startsWith("/case-studies/") ? (
+              <Image
+                src={study.thumbnail}
+                alt={study.brand}
+                fill
+                className="object-cover"
+                sizes="100vw"
+              />
+            ) : (
+              <span className="font-display text-8xl font-bold text-white/5 select-none">{study.brand.slice(0, 2).toUpperCase()}</span>
+            )}
           </div>
         </div>
       </section>

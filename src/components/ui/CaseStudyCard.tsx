@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 import type { CaseStudy } from "@/data/caseStudies";
 
@@ -30,11 +31,21 @@ export default function CaseStudyCard({ study }: CaseStudyCardProps) {
       <Link href={`/case-studies/${study.slug}`}>
         {/* Thumbnail */}
         <div className="relative aspect-[4/3] bg-surface-2 rounded-sm overflow-hidden mb-4 border border-white/5">
-          <div className="absolute inset-0 flex items-center justify-center">
-            <span className="font-display text-6xl font-bold text-white/5 select-none">
-              {study.brand.slice(0, 2).toUpperCase()}
-            </span>
-          </div>
+          {study.thumbnail.startsWith("/case-studies/") ? (
+            <Image
+              src={study.thumbnail}
+              alt={study.brand}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 33vw"
+            />
+          ) : (
+            <div className="absolute inset-0 flex items-center justify-center">
+              <span className="font-display text-6xl font-bold text-white/5 select-none">
+                {study.brand.slice(0, 2).toUpperCase()}
+              </span>
+            </div>
+          )}
           <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 translate-y-2 group-hover:translate-y-0">
             <span className="font-body text-xs font-semibold text-gold">View Case Study →</span>

@@ -110,7 +110,7 @@ export const caseStudies: CaseStudy[] = [
     division: "ecommerce",
     market: "global",
     headline: "$232,645 in 1.5 Months · 5.4x ROAS",
-    thumbnail: "/placeholders/case-4.jpg",
+    thumbnail: "/case-studies/warriors-of-the-divine.jpg",
     challenge:
       "Warriors of the Divine is an Australian clothing brand built for earthy women - sustainable, spiritual, grounded in the connection between self and earth. In 2023, Alicia Keys wore one of their pieces and they decided to launch a sale in her name. Their in-house team was running a 2.1x ROAS. For a campaign of this cultural weight, that wasn't enough. Our job was to take 2.1x to wherever Alicia Keys deserved.",
     strategy:
