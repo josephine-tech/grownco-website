@@ -105,29 +105,29 @@ export const caseStudies: CaseStudy[] = [
     featured: true,
   },
   {
-    slug: "london-luxury-brand-europe",
-    brand: "Maison Alderton",
+    slug: "maison-crivelli-180x-awareness",
+    brand: "Maison Crivelli",
     division: "traditional",
     market: "europe",
-    headline: "180% Brand Awareness Lift in 6 Months",
+    headline: "180x Brand Awareness · 20M Views · $130,000 in Revenue",
     thumbnail: "/placeholders/case-3.jpg",
     challenge:
-      "A heritage British luxury brand struggling to connect with younger affluent consumers in continental Europe. Existing marketing felt dated and failed to resonate with the 28-40 demographic they needed to win.",
+      "Maison Crivelli is a heritage British luxury fragrance house with strong brand equity and a loyal but aging customer base. When they came to us, the challenge was clear: the 28 to 40 affluent European consumer they needed to win was not finding them. Existing marketing felt dated, distribution was limited, and the brand's visibility in continental Europe was almost non-existent. The product was exceptional. The presentation was not reaching the right people.",
     strategy:
-      "Applied the Empire package through the D.R.I.V.E. lens. Desire mapping revealed the 28-40 audience craved access and cultural credibility, not heritage. Reflection showed the brand had strong equity but weak visibility. Identity was sharpened around quiet luxury, and Voice was rebuilt for editorial channels rather than traditional advertising.",
+      "We deployed the Empire package through the D.R.I.V.E. framework from the ground up. Desire mapping revealed that the 28 to 40 demographic did not want heritage, they wanted access. They wanted to feel like they had discovered something rarified before everyone else did. Reflection showed the brand had the equity to support that positioning but lacked the visibility to make it believable. Identity was sharpened entirely around quiet luxury, the kind of confidence that does not announce itself. Voice was rebuilt for editorial channels, culture-forward platforms, and press rather than traditional advertising formats.",
     execution:
-      "New brand identity rolled out across all touchpoints. Editorial video series produced over 8 weeks. Press seeding to 40 European luxury publications. Pop-up experiences in Paris, Milan, and Amsterdam. Influencer programme with 8 macro-creators selected for cultural authority, not just reach.",
+      "Execution ran across eight weeks. A new brand identity was rolled out across every touchpoint simultaneously. An editorial video series was produced and distributed across Instagram, TikTok, and YouTube. Press seeding reached 40 European luxury publications. Pop-up experiences were activated in Paris, Milan, and Amsterdam, each one designed as a cultural moment, not a sales event. An influencer programme was built around eight macro-creators selected entirely for cultural authority rather than follower count.",
     results: [
-      { label: "Brand Awareness Lift", value: "+180%" },
-      { label: "PR Reach", value: "12M" },
-      { label: "Social Following Growth", value: "+94K" },
-      { label: "Wholesale Enquiries", value: "+340%" },
+      { label: "Brand Awareness Lift", value: "180x" },
+      { label: "New Followers", value: "20K" },
+      { label: "Total Views", value: "20M" },
+      { label: "Revenue Generated", value: "$130K" },
     ],
     testimonial: {
       quote:
-        "Grow N Co understood our brand better than agencies we'd worked with for years. The European rollout exceeded every benchmark.",
-      name: "James Alderton",
-      role: "CEO, Maison Alderton",
+        "Grow N Co understood something our previous agencies never did. Our customer doesn't want to be sold to. They want to be let in. That's exactly what this campaign did.",
+      name: "Maison Crivelli",
+      role: "Brand Director",
     },
     tags: ["Brand", "PR", "Luxury", "Europe", "Traditional"],
     featured: true,
