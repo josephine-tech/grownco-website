@@ -105,25 +105,25 @@ export const caseStudies: CaseStudy[] = [
     featured: true,
   },
   {
-    slug: "miami-streetwear-americas",
-    brand: "CTRL Streetwear",
+    slug: "warriors-of-the-divine-5x-roas",
+    brand: "Warriors of the Divine",
     division: "ecommerce",
-    market: "americas",
-    headline: "8x Revenue Growth in One Quarter",
+    market: "global",
+    headline: "5.4x ROAS in a 1-Month Campaign",
     thumbnail: "/placeholders/case-4.jpg",
     challenge:
-      "Miami-based streetwear brand with a cult following but no performance infrastructure. They were leaving serious money on the table - organic content was converting but paid acquisition was untested.",
+      "In 2023, this Aussie clothing brand for earthy women had just gotten Alicia Keys in one of their pieces and decided to launch a sale in her name. Our job: take their 2.1x ROAS, run with their in-house team, to the level Alicia Keys deserved.",
     strategy:
-      "The brand's organic content was already tapping into real Desire - we built a paid amplification engine around it. Reflection showed the audience were not buying clothes, they were buying identity. Voice assessment identified the UGC hooks that resonated most deeply, and we systematised Execution of similar content at scale.",
+      "We applied D.R.I.V.E. from the ground up. Desire mapping revealed the brand was selling products when it should have been selling aspiration. Reflection exposed a complete mismatch between creative hooks and buyer intent. Identity was rebuilt around the emotional desire of the customer, then Voice was deployed across 60 new creatives in week one. The desire: the closer your clothes are to earth, the closer you are to the divine. Desire two: being one with earth and in right standing with the divine through sustainable clothing.",
     execution:
-      "60 ad creatives produced from existing organic content and new UGC shoots. TikTok Ads launched alongside Meta retargeting. Email flows rebuilt from scratch. Loyalty programme launched to boost lifetime value.",
+      "60 creatives with multiple hooks led with achieving your highest consciousness through Warriors of the Divine. All 60 new ad creatives launched across Meta and TikTok in the first 10 days. Media buying was restructured around a proven campaign architecture. Weekly Execution cycles meant underperformers were cut within 48 hours and winning variants scaled aggressively.",
     results: [
-      { label: "Revenue Growth (Q1)", value: "8x" },
-      { label: "TikTok ROAS", value: "6.1x" },
-      { label: "Email Revenue Share", value: "41%" },
-      { label: "Average Order Value", value: "+67%" },
+      { label: "ROAS Achieved", value: "5.4x" },
+      { label: "ROAS Before Campaign", value: "2.1x" },
+      { label: "New Ad Creatives", value: "60" },
+      { label: "Campaign Length", value: "1 Month" },
     ],
-    tags: ["E-Commerce", "TikTok", "Email", "Streetwear", "Americas"],
+    tags: ["E-Commerce", "Meta Ads", "TikTok", "Fashion", "Global"],
     featured: false,
   },
 ];

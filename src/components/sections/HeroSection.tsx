@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-background pb-24">
+    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-background pt-28 pb-16">
       {/* Animated grid background */}
       <div className="absolute inset-0 overflow-hidden">
         <div
