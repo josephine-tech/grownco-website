@@ -49,34 +49,6 @@ export const caseStudies: CaseStudy[] = [
     featured: true,
   },
   {
-    slug: "lagos-fashion-house-4x-roas",
-    brand: "Lagos Fashion House",
-    division: "ecommerce",
-    market: "africa",
-    headline: "4x ROAS in 60 Days",
-    thumbnail: "/placeholders/case-1.jpg",
-    challenge:
-      "Lagos Fashion House had an incredible product line but was burning through ad spend with a fragmented creative strategy and no cohesive performance framework. ROAS was sitting at 0.9x - they were losing money on every sale.",
-    strategy:
-      "We applied D.R.I.V.E. from the ground up. Desire mapping revealed the brand was selling products when it should have been selling aspiration. Reflection exposed a complete mismatch between creative hooks and buyer intent. Identity was rebuilt around the emotional desire of the customer, then Voice was deployed across 60 new creatives in week one.",
-    execution:
-      "60 new ad creatives launched across Meta and TikTok in the first 10 days. Media buying was restructured around a proven campaign architecture. Weekly Execution cycles meant underperformers were cut within 48 hours and winning variants scaled aggressively.",
-    results: [
-      { label: "ROAS Achieved", value: "4.2x" },
-      { label: "Revenue Increase", value: "+340%" },
-      { label: "CPM Reduction", value: "-62%" },
-      { label: "Creative Winning Rate", value: "38%" },
-    ],
-    testimonial: {
-      quote:
-        "Grow N Co transformed our entire approach to performance marketing. The results speak for themselves - 4x ROAS in under two months.",
-      name: "Adaeze Okonkwo",
-      role: "Founder, Lagos Fashion House",
-    },
-    tags: ["Performance", "Meta Ads", "TikTok", "Fashion", "Africa"],
-    featured: true,
-  },
-  {
     slug: "peakform-supplements-ai-content-factory",
     brand: "Peakform Supplements",
     division: "ecommerce",
