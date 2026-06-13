@@ -77,31 +77,31 @@ export const caseStudies: CaseStudy[] = [
     featured: true,
   },
   {
-    slug: "cape-town-supplements-scale",
-    brand: "PeakForm Supplements",
+    slug: "peakform-supplements-ai-content-factory",
+    brand: "Peakform Supplements",
     division: "ecommerce",
     market: "africa",
-    headline: "$120K Revenue in First 90 Days",
+    headline: "200 AI Video Ads · 4.2x ROAS · $184,000 in 60 Days",
     thumbnail: "/placeholders/case-2.jpg",
     challenge:
-      "A new supplements brand entering a saturated African market with zero brand awareness and limited budget. They needed rapid market penetration without the luxury of a slow brand-building phase.",
+      "Peakform Supplements had a product worth talking about: Ambrosia, a clean pre-workout built for people who train hard and live clean. No jitters, no fillers, no compromise. The problem was reach. A strong product sitting behind weak visibility. Their content was functional and forgettable, showing what the product did instead of what it made you feel. The gym audience they needed to win scrolled straight past them.",
     strategy:
-      "D.R.I.V.E. Desire mapping surfaced something the brand had missed: their buyer was not chasing fitness, they were chasing status and belonging. Reflection identified an untapped audience of semi-professional footballers and gym-goers aged 22-34. Identity was rebuilt around performance culture, and Voice was deployed through 15 micro-influencers who lived inside the community.",
+      "We deployed the AI Content Factory and applied D.R.I.V.E. from the first brief. Desire mapping cut straight to the real purchase driver: Ambrosia's customer is not buying a pre-workout. They are buying the version of themselves that shows up to every session with locked-in focus, physical control, and the quiet confidence of someone who takes their performance seriously. That desire, discipline made visible, became the creative north star for everything that followed. Reflection work revealed the brand had been leading with ingredients when it should have been leading with identity. The hook was wrong. Every ad was opening with what was inside the tub when it should have been opening with the person the tub turned you into.",
     execution:
-      "AI Content Factory deployed to produce 200+ pieces of content in month one. UGC creator network activated with 15 micro-influencers. Media buying concentrated on high-intent interest stacks. Funnel optimised with a three-step advertorial landing page built around the core desire.",
+      "Two hundred AI video ads were produced and launched on Meta across sixty days. Each video was mapped to a specific desire direction: focus, physical control, clean energy, pre-session ritual, post-workout confidence. Hook variations were tested systematically. Underperformers were cut within 48 hours. Winners were scaled immediately.",
     results: [
-      { label: "Revenue (90 days)", value: "$120K" },
-      { label: "Customer Acquisition Cost", value: "$4.20" },
-      { label: "Email List Built", value: "8,400" },
-      { label: "Return Customer Rate", value: "34%" },
+      { label: "AI Video Ads Produced", value: "200" },
+      { label: "ROAS Achieved", value: "4.2x" },
+      { label: "Revenue (60 Days)", value: "$184K" },
+      { label: "Impressions", value: "3.2M" },
     ],
     testimonial: {
       quote:
-        "We went from zero to a real business in three months. The content volume alone was unlike anything we'd seen from an agency.",
-      name: "Sipho Dlamini",
-      role: "Co-Founder, PeakForm Supplements",
+        "We knew the product was good. We just couldn't get it in front of the right people in the right way. The content factory changed that completely - the volume, the quality, and the results were unlike anything we'd run before.",
+      name: "Peakform Supplements",
+      role: "",
     },
-    tags: ["Launch", "Content", "UGC", "Health", "Africa"],
+    tags: ["Launch", "Content", "AI", "Health", "Africa"],
     featured: true,
   },
   {
