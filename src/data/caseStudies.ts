@@ -21,6 +21,34 @@ export interface CaseStudy {
 
 export const caseStudies: CaseStudy[] = [
   {
+    slug: "nexy-media-600k-12-companies",
+    brand: "Nexy Media",
+    division: "ecommerce",
+    market: "europe",
+    headline: "£600,000 in 12 Months Across 12 Companies",
+    thumbnail: "/placeholders/case-nexy.jpg",
+    challenge:
+      "Nexy Media is a UK-based PPC agency operating in partnership with Google, managing paid advertising across a portfolio of twelve companies. When they brought us in, the business was operating at a deficit. Campaigns were running, money was being spent, but returns were not covering costs. The problem was not the platforms or the budgets. It was the creative strategy - ads built around product features when they should have been built around human desires.",
+    strategy:
+      "We took on the dual role of creative strategist and media buyer across all twelve accounts simultaneously. Every account received a full D.R.I.V.E. audit in month one. Existing campaigns were mapped against the desire framework, and briefs were rebuilt from the desire outward.",
+    execution:
+      "Google Ads campaign architectures were restructured across all twelve companies to align creative strategy with media buying. Weekly execution cycles kept every account sharp: what worked got more budget, what didn't got cut within 48 hours.",
+    results: [
+      { label: "Revenue Generated", value: "£600K" },
+      { label: "Companies Managed", value: "12" },
+      { label: "Timeframe", value: "12 Months" },
+      { label: "Outcome", value: "Best Year Yet" },
+    ],
+    testimonial: {
+      quote:
+        "Josephine and the team were impeccable. Our most profitable year till date. It was sad Google let go of our contract.",
+      name: "Anna Akhalbedashvili",
+      role: "Nexy Media",
+    },
+    tags: ["PPC", "Google Ads", "Performance", "Agency Partnership", "Europe"],
+    featured: true,
+  },
+  {
     slug: "lagos-fashion-house-4x-roas",
     brand: "Lagos Fashion House",
     division: "ecommerce",
@@ -109,19 +137,19 @@ export const caseStudies: CaseStudy[] = [
     brand: "Warriors of the Divine",
     division: "ecommerce",
     market: "global",
-    headline: "5.4x ROAS in a 1-Month Campaign",
+    headline: "$232,645 in 1.5 Months · 5.4x ROAS",
     thumbnail: "/placeholders/case-4.jpg",
     challenge:
-      "In 2023, this Aussie clothing brand for earthy women had just gotten Alicia Keys in one of their pieces and decided to launch a sale in her name. Our job: take their 2.1x ROAS, run with their in-house team, to the level Alicia Keys deserved.",
+      "Warriors of the Divine is an Australian clothing brand built for earthy women - sustainable, spiritual, grounded in the connection between self and earth. In 2023, Alicia Keys wore one of their pieces and they decided to launch a sale in her name. Their in-house team was running a 2.1x ROAS. For a campaign of this cultural weight, that wasn't enough. Our job was to take 2.1x to wherever Alicia Keys deserved.",
     strategy:
-      "We applied D.R.I.V.E. from the ground up. Desire mapping revealed the brand was selling products when it should have been selling aspiration. Reflection exposed a complete mismatch between creative hooks and buyer intent. Identity was rebuilt around the emotional desire of the customer, then Voice was deployed across 60 new creatives in week one. The desire: the closer your clothes are to earth, the closer you are to the divine. Desire two: being one with earth and in right standing with the divine through sustainable clothing.",
+      "We applied D.R.I.V.E. from the ground up. Desire mapping revealed the brand was selling products when it should have been selling aspiration. Two desires emerged: achieving your highest consciousness through what you wear, and being one with earth and in right standing with the divine through sustainable clothing. Reflection exposed a complete mismatch between creative hooks and buyer intent. Identity was rebuilt around the emotional truth of the customer.",
     execution:
-      "60 creatives with multiple hooks led with achieving your highest consciousness through Warriors of the Divine. All 60 new ad creatives launched across Meta and TikTok in the first 10 days. Media buying was restructured around a proven campaign architecture. Weekly Execution cycles meant underperformers were cut within 48 hours and winning variants scaled aggressively.",
+      "Sixty new creatives were launched across Meta and TikTok in the first 10 days with multiple hook variations, all leading with the desire, never the product. Media buying was restructured around a proven campaign architecture. Underperformers were cut within 48 hours. Winners were scaled aggressively.",
     results: [
+      { label: "Revenue (1.5 Months)", value: "$232,645" },
       { label: "ROAS Achieved", value: "5.4x" },
       { label: "ROAS Before Campaign", value: "2.1x" },
-      { label: "New Ad Creatives", value: "60" },
-      { label: "Campaign Length", value: "1 Month" },
+      { label: "Campaign Length", value: "1.5 Months" },
     ],
     tags: ["E-Commerce", "Meta Ads", "TikTok", "Fashion", "Global"],
     featured: false,
