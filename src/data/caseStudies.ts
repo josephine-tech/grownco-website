@@ -26,7 +26,7 @@ export const caseStudies: CaseStudy[] = [
     division: "ecommerce",
     market: "europe",
     headline: "£600,000 in 12 Months Across 12 Companies",
-    thumbnail: "/placeholders/case-nexy.jpg",
+    thumbnail: "/case-studies/nexy-media.png",
     challenge:
       "Nexy Media is a UK-based PPC agency operating in partnership with Google, managing paid advertising across a portfolio of twelve companies. When they brought us in, the business was operating at a deficit. Campaigns were running, money was being spent, but returns were not covering costs. The problem was not the platforms or the budgets. It was the creative strategy - ads built around product features when they should have been built around human desires.",
     strategy:
@@ -54,7 +54,7 @@ export const caseStudies: CaseStudy[] = [
     division: "ecommerce",
     market: "africa",
     headline: "200 AI Video Ads · 4.2x ROAS · $184,000 in 60 Days",
-    thumbnail: "/placeholders/case-2.jpg",
+    thumbnail: "/case-studies/peakform-supplements.png",
     challenge:
       "Peakform Supplements had a product worth talking about: Ambrosia, a clean pre-workout built for people who train hard and live clean. No jitters, no fillers, no compromise. The problem was reach. A strong product sitting behind weak visibility. Their content was functional and forgettable, showing what the product did instead of what it made you feel. The gym audience they needed to win scrolled straight past them.",
     strategy:
@@ -82,7 +82,7 @@ export const caseStudies: CaseStudy[] = [
     division: "traditional",
     market: "europe",
     headline: "180x Brand Awareness · 20M Views · $130,000 in Revenue",
-    thumbnail: "/placeholders/case-3.jpg",
+    thumbnail: "/case-studies/maison-crivelli.jpeg",
     challenge:
       "Maison Crivelli is a heritage British luxury fragrance house with strong brand equity and a loyal but aging customer base. When they came to us, the challenge was clear: the 28 to 40 affluent European consumer they needed to win was not finding them. Existing marketing felt dated, distribution was limited, and the brand's visibility in continental Europe was almost non-existent. The product was exceptional. The presentation was not reaching the right people.",
     strategy:
