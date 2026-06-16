@@ -17,8 +17,8 @@ html {
 }
 
 body {
-  background-color: #080808;
-  color: #FAFAF7;
+  background-color: #07100A;
+  color: #F5F5EE;
   font-family: var(--font-outfit), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -30,17 +30,17 @@ body {
   width: 4px;
 }
 ::-webkit-scrollbar-track {
-  background: #080808;
+  background: #07100A;
 }
 ::-webkit-scrollbar-thumb {
-  background: #C9A84C;
+  background: linear-gradient(180deg, #C9A84C 0%, #1E7A3E 100%);
   border-radius: 2px;
 }
 
 /* Selection */
 ::selection {
-  background: rgba(201, 168, 76, 0.3);
-  color: #FAFAF7;
+  background: rgba(30, 122, 62, 0.35);
+  color: #F5F5EE;
 }
 
 /* Hide default cursor on interactive elements */
@@ -54,13 +54,13 @@ a, button, [role="button"] {
   }
 
   .gradient-text {
-    background: linear-gradient(115deg, #8A6D23 0%, #C9A84C 22%, #FFF6D2 45%, #C9A84C 68%, #8A6D23 100%);
+    background: linear-gradient(115deg, #1E7A3E 0%, #8A6D23 18%, #C9A84C 35%, #FFF6D2 50%, #C9A84C 65%, #2A8A4A 82%, #1E7A3E 100%);
     background-size: 250% 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    animation: gold-shimmer 6s ease-in-out infinite;
-    filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.35));
+    animation: gold-shimmer 7s ease-in-out infinite;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
   }
 
   @keyframes gold-shimmer {
@@ -112,7 +112,7 @@ a, button, [role="button"] {
   }
 
   .glass {
-    background: rgba(17, 17, 16, 0.8);
+    background: rgba(12, 26, 15, 0.85);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
   }

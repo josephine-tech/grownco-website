@@ -21,7 +21,7 @@ export default function HeroSection() {
         <motion.div
           className="absolute inset-0"
           style={{
-            background: "radial-gradient(ellipse 60% 50% at 50% 50%, rgba(201,168,76,0.07) 0%, transparent 70%)",
+            background: "radial-gradient(ellipse 60% 50% at 50% 50%, rgba(30,122,62,0.10) 0%, rgba(201,168,76,0.05) 50%, transparent 70%)",
           }}
           animate={{ scale: [1, 1.1, 1] }}
           transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
@@ -29,7 +29,7 @@ export default function HeroSection() {
         <div
           className="absolute inset-0 opacity-60"
           style={{
-            background: "radial-gradient(ellipse 100% 80% at 50% 100%, rgba(8,8,8,0.9) 0%, transparent 60%)",
+            background: "radial-gradient(ellipse 100% 80% at 50% 100%, rgba(7,16,10,0.95) 0%, transparent 60%)",
           }}
         />
       </div>

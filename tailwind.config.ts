@@ -9,15 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#080808",
-        surface: "#111110",
-        "text-primary": "#FAFAF7",
+        background: "#07100A",
+        surface: "#0C1A0F",
+        "text-primary": "#F5F5EE",
         gold: "#C9A84C",
         "gold-dim": "rgba(201,168,76,0.10)",
-        muted: "#6B6B60",
+        emerald: "#1E7A3E",
+        "emerald-dim": "rgba(30,122,62,0.12)",
+        muted: "#617A69",
         danger: "#C8382A",
-        "surface-2": "#1A1A18",
-        "surface-3": "#222220",
+        "surface-2": "#111F15",
+        "surface-3": "#182819",
       },
       fontFamily: {
         display: ["var(--font-cormorant)", "Georgia", "serif"],
