@@ -59,14 +59,7 @@ export default function TalentProfileDetail({ talent }: { talent: Talent }) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.1 }}
             >
-              <div className="flex flex-wrap gap-2 mb-4">
-                {talent.niche.map((n) => (
-                  <span key={n} className="font-mono text-[10px] uppercase tracking-widest text-gold border border-gold/30 px-2 py-1 rounded-sm">{n}</span>
-                ))}
-              </div>
-
-              <h1 className="font-display text-5xl md:text-6xl font-bold text-text-primary mb-2">{talent.name}</h1>
-              <p className="font-mono text-sm text-muted mb-6">{talent.location}</p>
+              <h1 className="font-display text-5xl md:text-6xl font-bold text-text-primary mb-6">{talent.name}</h1>
 
               <p className="font-body text-muted leading-relaxed mb-8">{talent.bio}</p>
 
@@ -110,16 +103,19 @@ export default function TalentProfileDetail({ talent }: { talent: Talent }) {
       </section>
 
       {/* Brand partnerships */}
-      {talent.brandHistory && talent.brandHistory.length > 0 && (
+      {talent.brandDeals && talent.brandDeals.length > 0 && (
         <section className="section-pad bg-surface border-t border-white/5">
           <div className="max-w-7xl mx-auto px-6">
             <FadeInUp>
-              <p className="font-mono text-xs uppercase tracking-widest text-gold mb-4">Past Partnerships</p>
-              <h2 className="font-display text-3xl font-bold text-text-primary mb-8">Brand Collaborations</h2>
+              <p className="font-mono text-xs uppercase tracking-widest text-gold mb-4">Brand Deals</p>
+              <h2 className="font-display text-3xl font-bold text-text-primary mb-8">Secured Under Grow N Co</h2>
               <div className="flex flex-wrap gap-4">
-                {talent.brandHistory.map((brand) => (
-                  <div key={brand} className="px-5 py-3 bg-background border border-white/10 rounded-sm">
-                    <span className="font-body text-sm text-muted">{brand}</span>
+                {talent.brandDeals.map((deal) => (
+                  <div key={deal.name} className="px-5 py-3 bg-background border border-white/10 rounded-sm flex items-center gap-3">
+                    <span className="font-body text-sm text-text-primary">{deal.name}</span>
+                    {deal.upcoming && (
+                      <span className="font-mono text-[9px] uppercase tracking-widest text-gold border border-gold/30 px-1.5 py-0.5 rounded-sm">Upcoming</span>
+                    )}
                   </div>
                 ))}
               </div>

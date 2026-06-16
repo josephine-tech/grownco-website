@@ -7,20 +7,13 @@ import { talent } from "@/data/talent";
 import FadeInUp from "@/components/ui/FadeInUp";
 import Link from "next/link";
 
-type PlatformFilter = "all" | "instagram" | "tiktok" | "youtube";
+type PlatformFilter = "all" | "instagram" | "tiktok" | "youtube" | "twitter";
 
 export default function TalentPage() {
   const [platform, setPlatform] = useState<PlatformFilter>("all");
-  const [niche, setNiche] = useState<string>("all");
-
-  const allNiches = Array.from(
-    new Set(talent.flatMap((t) => t.niche))
-  ).slice(0, 6);
 
   const filtered = talent.filter((t) => {
-    const platMatch = platform === "all" || t.platforms.some((p) => p.name === platform);
-    const nicheMatch = niche === "all" || t.niche.includes(niche);
-    return platMatch && nicheMatch;
+    return platform === "all" || t.platforms.some((p) => p.name === platform);
   });
 
   return (
@@ -94,7 +87,7 @@ export default function TalentPage() {
       <section className="py-6 bg-surface border-y border-white/5 sticky top-[60px] z-30">
         <div className="max-w-7xl mx-auto px-6 flex flex-wrap items-center gap-3">
           <div className="flex items-center gap-1 bg-background border border-white/10 rounded-sm p-1">
-            {(["all", "instagram", "tiktok", "youtube"] as PlatformFilter[]).map((p) => (
+            {(["all", "instagram", "tiktok", "twitter"] as PlatformFilter[]).map((p) => (
               <button
                 key={p}
                 onClick={() => setPlatform(p)}
@@ -102,25 +95,7 @@ export default function TalentPage() {
                   platform === p ? "bg-gold text-background" : "text-muted hover:text-text-primary"
                 }`}
               >
-                {p === "all" ? "All Platforms" : p.charAt(0).toUpperCase() + p.slice(1)}
-              </button>
-            ))}
-          </div>
-
-          <div className="flex items-center gap-1 bg-background border border-white/10 rounded-sm p-1">
-            <button
-              onClick={() => setNiche("all")}
-              className={`px-3 py-1.5 rounded-sm font-mono text-[10px] uppercase tracking-widest transition-all duration-200 ${niche === "all" ? "bg-gold text-background" : "text-muted hover:text-text-primary"}`}
-            >
-              All Niches
-            </button>
-            {allNiches.map((n) => (
-              <button
-                key={n}
-                onClick={() => setNiche(n)}
-                className={`px-3 py-1.5 rounded-sm font-mono text-[10px] uppercase tracking-widest transition-all duration-200 ${niche === n ? "bg-gold text-background" : "text-muted hover:text-text-primary"}`}
-              >
-                {n}
+                {p === "all" ? "All Platforms" : p === "twitter" ? "Twitter / X" : p.charAt(0).toUpperCase() + p.slice(1)}
               </button>
             ))}
           </div>
