@@ -57,7 +57,6 @@ export default function TalentCard({ talent }: { talent: Talent }) {
         <h3 className="font-display text-xl font-semibold text-text-primary group-hover:text-gold transition-colors duration-200">
           {talent.name}
         </h3>
-        <p className="font-body text-sm text-muted mt-0.5">{talent.niche.slice(0, 2).join(" · ")}</p>
 
         {topPlatform && (
           <div className="mt-3 flex items-center gap-4">

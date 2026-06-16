@@ -59,14 +59,7 @@ export default function TalentProfileDetail({ talent }: { talent: Talent }) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.1 }}
             >
-              <div className="flex flex-wrap gap-2 mb-4">
-                {talent.niche.map((n) => (
-                  <span key={n} className="font-mono text-[10px] uppercase tracking-widest text-gold border border-gold/30 px-2 py-1 rounded-sm">{n}</span>
-                ))}
-              </div>
-
-              <h1 className="font-display text-5xl md:text-6xl font-bold text-text-primary mb-2">{talent.name}</h1>
-              <p className="font-mono text-sm text-muted mb-6">{talent.location}</p>
+              <h1 className="font-display text-5xl md:text-6xl font-bold text-text-primary mb-6">{talent.name}</h1>
 
               <p className="font-body text-muted leading-relaxed mb-8">{talent.bio}</p>
 
