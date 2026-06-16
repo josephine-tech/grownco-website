@@ -6,32 +6,23 @@ import Link from "next/link";
 export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-background pt-28 pb-16">
-      {/* Animated grid background */}
+      {/* Organic depth background */}
       <div className="absolute inset-0 overflow-hidden">
-        <div
-          className="absolute inset-0 opacity-[0.04]"
-          style={{
-            backgroundImage: `
-              linear-gradient(to right, #FAFAF7 1px, transparent 1px),
-              linear-gradient(to bottom, #FAFAF7 1px, transparent 1px)
-            `,
-            backgroundSize: "80px 80px",
-          }}
-        />
+        {/* Primary emerald light source — top centre */}
+        <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse 80% 60% at 50% -10%, rgba(30,122,62,0.18) 0%, transparent 65%)" }} />
+        {/* Secondary gold warmth — lower right */}
+        <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse 55% 45% at 80% 90%, rgba(201,168,76,0.08) 0%, transparent 60%)" }} />
+        {/* Tertiary cold depth — left */}
+        <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse 40% 60% at -5% 50%, rgba(15,90,40,0.12) 0%, transparent 60%)" }} />
+        {/* Breathing centre glow */}
         <motion.div
           className="absolute inset-0"
-          style={{
-            background: "radial-gradient(ellipse 60% 50% at 50% 50%, rgba(30,122,62,0.10) 0%, rgba(201,168,76,0.05) 50%, transparent 70%)",
-          }}
-          animate={{ scale: [1, 1.1, 1] }}
-          transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
+          style={{ background: "radial-gradient(ellipse 50% 40% at 50% 55%, rgba(30,122,62,0.09) 0%, rgba(201,168,76,0.04) 55%, transparent 70%)" }}
+          animate={{ scale: [1, 1.08, 1], opacity: [0.7, 1, 0.7] }}
+          transition={{ duration: 9, repeat: Infinity, ease: "easeInOut" }}
         />
-        <div
-          className="absolute inset-0 opacity-60"
-          style={{
-            background: "radial-gradient(ellipse 100% 80% at 50% 100%, rgba(7,16,10,0.95) 0%, transparent 60%)",
-          }}
-        />
+        {/* Bottom vignette */}
+        <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse 120% 50% at 50% 110%, rgba(7,16,10,1) 0%, transparent 55%)" }} />
       </div>
 
       {/* Content */}
