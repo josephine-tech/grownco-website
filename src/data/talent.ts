@@ -86,7 +86,7 @@ export const talent: Talent[] = [
         name: "tiktok",
         handle: "@temilfitness",
         followers: "16.5K",
-        engagementRate: "TBC",
+        engagementRate: "30%",
         avgViews: "150K+",
       },
     ],

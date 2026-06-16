@@ -21,16 +21,8 @@ export default function TalentPage() {
       {/* Hero */}
       <section className="pt-40 pb-20 bg-background relative overflow-hidden">
         <div className="absolute inset-0">
-          <div className="absolute inset-0 opacity-[0.03]"
-            style={{
-              backgroundImage: "linear-gradient(to right, #FAFAF7 1px, transparent 1px), linear-gradient(to bottom, #FAFAF7 1px, transparent 1px)",
-              backgroundSize: "60px 60px",
-            }}
-          />
-          <motion.div
-            className="absolute inset-0"
-            style={{ background: "radial-gradient(ellipse 50% 60% at 70% 40%, rgba(201,168,76,0.06) 0%, transparent 70%)" }}
-          />
+          <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse 60% 55% at 70% 0%, rgba(30,122,62,0.13) 0%, transparent 60%)" }} />
+          <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse 40% 50% at 10% 80%, rgba(201,168,76,0.06) 0%, transparent 55%)" }} />
         </div>
         <div className="relative max-w-7xl mx-auto px-6">
           <motion.div
